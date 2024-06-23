@@ -3,9 +3,10 @@ title: "HyperBlocker: Accelerating Rule-based Blocking in Entity Resolution usin
 collection: publications
 permalink: /publication/2024-05-HyperBlocker
 date: MAY 1, 2024
-venue: 'TO ADD'
+#venue: 'The 51th International Conference on Very Large Data Bases (VLDB), 2025.'
+venue: ''
 paperurl: ''
-citation: ''
+citation: '*Xiaoke Zhu*, Min Xie, Ting Deng, and Qi Zhang. 2025. MiniGraph: Querying Big Graphs with a Single Machine.'
 ---
 [(Download publication here)](https://hsiaoko.github.io/files/paper/HyperBlocker_full_paper.pdf)
 [(Download slides here)]()
