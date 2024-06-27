@@ -50,4 +50,4 @@ I am/was a program committee member for the following conferences:
 
 <br/><br/>
 
-<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=eHHOFbP732DR-cMe1ytaYJxII5gJ_ocpixMhAWlufLU&cl=ffffff&w=a"></script>
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=000000&w=120&t=n&d=eHHOFbP732DR-cMe1ytaYJxII5gJ_ocpixMhAWlufLU&co=ffffff&ct=0a0909'></script>
