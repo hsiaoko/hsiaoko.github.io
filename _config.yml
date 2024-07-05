@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Xiaoke Zhu"
+title                    : "Xiaoke ZHU's Homepage"
 title_separator          : "-"
-name                     : &name "Xiaoke Zhu"
+name                     : &name "Xiaoke ZHU"
 description              : &description "PhD Candidate in Computer Science at Beihang University"
 url                      : https://hsiaoko.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
