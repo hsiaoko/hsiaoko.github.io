@@ -3,11 +3,8 @@ main:
   - title: "Publications"
     url: /publications/
 
-#  - title: "CV"
-#    url: /cv/
+  - title: "Gallery"
+    url: https://hsiaoko.github.io/gallery/gallery.html
 
 #  - title: "PhD Dissertation"
 #    url: /phddissertation/
-
-#  - title: "MS Thesis"
-#    url: /mastersthesis/
