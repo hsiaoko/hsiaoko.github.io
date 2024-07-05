@@ -1,5 +1,3 @@
-
-<script type='text/javascript' id='time' src='https://shoroukaziz.github.io/notion_widgets/time_left_in_2021.html'></script>
 ---
 permalink: /
 title: "Welcome to Xiaoke Zhu's Homepage"
@@ -51,6 +49,8 @@ I am/was a program committee member for the following conferences:
 -->
 
 <br/><br/>
+
+<script type='text/javascript' id='time' src='https://shoroukaziz.github.io/notion_widgets/time_left_in_2021.html'></script>
 
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=000000&w=230&t=tt&d=eHHOFbP732DR-cMe1ytaYJxII5gJ_ocpixMhAWlufLU&co=ffffff&ct=0a0909&cmn=00fff0&cmo=f3cefc'></script>
 
