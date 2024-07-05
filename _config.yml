@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Xiaoke Zhu"
 title_separator          : "-"
 name                     : &name "Xiaoke Zhu"
-description              : &description "PhD candidate in Computer Science at Beihang University, Beijing"
+description              : &description "PhD Candidate in Computer Science at Beihang University"
 url                      : https://hsiaoko.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "hsiaoko.github.io"
@@ -78,9 +78,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Xiaoke Zhu"
+  name             : "Xiaoke ZHU"
   avatar           : "sics.jpg"
-  bio              : "PhD candidate in Computer Science"
+  bio              : "PhD Candidate in Computer Science"
   location         : "Beijing, China"
   employer         : "SICS"
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=Zu3XLB8AAAAJ"
