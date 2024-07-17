@@ -8,9 +8,9 @@ paperurl: ''
 citation: '<strong>Xiaoke Zhu</strong>, Yang Liu, Shuhao Liu, and Wenfei Fan. 2023. MiniGraph: Querying Big Graphs with a Single Machine. PVLDB. 16, 9, 2172–2185.'
 ---
 
-[(Download publication here)](https://hsiaoko.github.io/files/paper/MiniGraph_full_paper.pdf)
-[(Download slides here)](https://hsiaoko.github.io/files/slides/MiniGraph_VLDB2023.pdf)
-[(Download source code here)](https://github.com/SICS-Fundamental-Research-Center/MiniGraph)
+[<font color='#0000FF'>(Download publication here)</font>](https://hsiaoko.github.io/files/paper/MiniGraph_full_paper.pdf)
+[<font color='#0000FF'>(Download slides here)</font>](https://hsiaoko.github.io/files/slides/MiniGraph_VLDB2023.pdf)
+[<font color='#0000FF'>(Download source code here)</font>](https://github.com/SICS-Fundamental-Research-Center/MiniGraph)
 
 ### Abstract
 
