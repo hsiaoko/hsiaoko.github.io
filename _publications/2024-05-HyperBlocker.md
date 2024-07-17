@@ -8,7 +8,7 @@ venue: ''
 paperurl: ''
 citation: '<strong>Xiaoke Zhu</strong>, Min Xie, Ting Deng, and Qi Zhang. 2025. HyperBlocker: Accelerating Rule-based Blocking in Entity Resolution using GPUs.'
 ---
-[(Download publication here)](https://hsiaoko.github.io/files/paper/HyperBlocker_full_paper.pdf)
+[<font color='#0000FF'>(Download publication here)</font> ](https://hsiaoko.github.io/files/paper/HyperBlocker_full_paper.pdf)
 [(Download slides here)]()
 [(Download source code here)](https://github.com/SICS-Fundamental-Research-Center/HyperBlocker)
 
