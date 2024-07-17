@@ -2,7 +2,7 @@
 title: "HyperBlocker: Accelerating Rule-based Blocking in Entity Resolution using GPUs"
 collection: publications
 permalink: /publication/2024-05-HyperBlocker
-date: MAY 1, 2024
+date: MAY 1, 2025
 #venue: 'The 51th International Conference on Very Large Data Bases (VLDB), 2025.'
 venue: ''
 paperurl: ''
