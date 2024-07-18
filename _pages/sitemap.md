@@ -5,7 +5,7 @@ permalink: /sitemap/
 author_profile: true
 ---
 
- 
+### Interesting Research Areas
 * [Hyperdimensional Computing aka Vector Symbolic Architectures](https://www.hd-computing.com/home)
 
 
