@@ -5,8 +5,15 @@ permalink: /sitemap/
 author_profile: true
 ---
 
+### Data Sets
+* [DataSetRDFDumps](https://www.w3.org/wiki/DataSetRDFDumps) by W3C
+
+
 ### Interesting Research Areas
 * [Hyperdimensional Computing aka Vector Symbolic Architectures](https://www.hd-computing.com/home)
+
+### Plot
+* [Access 16.5M+ vector icons & stickers](https://www.flaticon.com)
 
 
 ### Writing and Publishing
