@@ -6,7 +6,7 @@ date: MAY 1, 2025
 #venue: 'The 51th International Conference on Very Large Data Bases (VLDB), 2025.'
 venue: ''
 paperurl: ''
-citation: '<strong>Xiaoke Zhu</strong>, Min Xie, Ting Deng, and Qi Zhang. 2025. HyperBlocker: Accelerating Rule-based Blocking in Entity Resolution using GPUs.'
+citation: '<strong>Xiaoke Zhu</strong>, Min Xie, Ting Deng, and Qi Zhang. HyperBlocker: Accelerating Rule-based Blocking in Entity Resolution using GPUs, 2025.'
 ---
 [<font color='#0000FF'>(Download publication here)</font>](https://hsiaoko.github.io/files/paper/HyperBlocker_full_paper.pdf)
 [<font color='#0000FF'>(Download slides here)</font>]()
