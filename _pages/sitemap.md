@@ -5,6 +5,9 @@ permalink: /sitemap/
 author_profile: true
 ---
 
+### Deadlines
+* [Top CS Conference Deadlines](https://cs-deadlines.cin.ufpe.br)
+
 ### Data Sets
 * [DataSetRDFDumps](https://www.w3.org/wiki/DataSetRDFDumps) by W3C
 
@@ -23,7 +26,6 @@ author_profile: true
 
 ### Speaking
 * [How to Present a Paper in Theoretical Computer Science](https://ianparberry.com/pubs/speaker.pdf) by Ian Parberry
-
 * [How to give a good research talk](https://simon.peytonjones.org/great-research-talk/) by Simon Peyton Jones
 
 
