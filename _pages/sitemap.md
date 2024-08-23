@@ -10,6 +10,7 @@ author_profile: true
 
 ### Data Sets
 * [DataSetRDFDumps](https://www.w3.org/wiki/DataSetRDFDumps) by W3C
+* [Network Repository](https://networkrepository.com) by Ryan A. Rossi and Nesreen K. Ahmed
 
 
 ### Interesting Research Areas
