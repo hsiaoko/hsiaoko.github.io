@@ -1,17 +1,17 @@
 ---
-title: "HyperBlocker: Accelerating Rule-based Blocking in Entity Resolution using GPUs"
+title: "MiniGraph: Querying Big Graphs with a Single Machine"
 collection: publications
 permalink: /publication/2024-10-HyperBlocker
-date: OCT 1, 2025
-venue: 'The 51th International Conference on Very Large Data Bases (VLDB), 2025.'
+date: MAY 1, 2023
+venue: 'The 49th International Conference on Very Large Data Bases (VLDB).'
 paperurl: ''
-citation: '<strong>Xiaoke Zhu</strong>, Min Xie, Ting Deng, and Qi Zhang. HyperBlocker: Accelerating Rule-based Blocking in Entity Resolution using GPUs, PVLDB, 18, x, x.'
+citation: '<strong>Xiaoke Zhu</strong>, Yang Liu, Shuhao Liu, and Wenfei Fan. 2023. MiniGraph: Querying Big Graphs with a Single Machine. PVLDB. 16, 9, 2172–2185.'
 ---
 
-[<font color='#0000FF'>(Download publication here)</font>](https://hsiaoko.github.io/files/paper/HyperBlocker_full_paper.pdf)
-[<font color='#0000FF'>(Download slides here)</font>]()
-[<font color='#0000FF'>(Download source code here)</font>](https://github.com/SICS-Fundamental-Research-Center/HyperBlocker)
+[<font color='#0000FF'>(Download publication here)</font>](https://hsiaoko.github.io/files/paper/MiniGraph_full_paper.pdf)
+[<font color='#0000FF'>(Download slides here)</font>](https://hsiaoko.github.io/files/slides/MiniGraph_VLDB2023.pdf)
+[<font color='#0000FF'>(Download source code here)</font>](https://github.com/SICS-Fundamental-Research-Center/MiniGraph)
 
 ### Abstract
 
-This paper studies rule-based blocking in Entity Resolution (ER). We propose HyperBlocker, a GPU-accelerated system for blocking in ER. As opposed to previous blocking algorithms and parallel blocking solvers, HyperBlocker employs a pipelined architecture to overlap data transfer and GPU operations, and improve parallelism by effectively collaborating GPUs and CPUs. It also generates a data-aware and rule-aware execution plan on CPUs, for specifying how rules are evaluated in blocking. Moreover, it develops a variety of hardware-aware optimization and scheduling strategies to achieve massive parallelism and workload balancing across multiple GPUs. Using real-life and synthetic datasets, we show that HyperBlocker is at least 6.1× and 11.2× faster than prior CPU-powered distributed systems and GPU-based ER solvers, respectively. By combining blocking in HyperBlocker with the state-of-the-art ER matchers, we speed up the ER matcher by 26.5x on average with comparable accuracy.
+This paper presents MiniGraph, an out-of-core system for querying big graphs with a single machine. As opposed to previous single-machine graph systems, MiniGraph proposes a pipelined architecture to overlap I/O and CPU operations, and improves multi-core parallelism. It also introduces a hybrid model to support both vertex-centric and graph-centric parallel computations, to simplify parallel graph programming, speed up beyond-neighborhood computations, and parallelize computations within each subgraph. The model induces a two-level parallel execution model to explore both inter-subgraph and intra-subgraph parallelism. Moreover, MiniGraph develops new optimization techniques under its architecture. Using real-life graphs of different types, we show that MiniGraph is up to 76.1x faster than prior out-of-core systems, and performs better than some multi-machine systems that use up to 12 machines.
