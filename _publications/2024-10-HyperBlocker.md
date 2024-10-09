@@ -1,8 +1,8 @@
 ---
-title: "MiniGraph: Querying Big Graphs with a Single Machine"
+title: "HyperBlocker: Accelerating Rule-based Blocking in Entity Resolution using GPUs"
 collection: publications
 permalink: /publication/2024-10-HyperBlocker
-date: OCT 1, 2024
+date: AUG 1, 2025
 venue: 'The 51th International Conference on Very Large Data Bases (VLDB)'
 paperurl: ''
 citation: '<strong>Xiaoke Zhu</strong>, Yang Liu, Shuhao Liu, and Wenfei Fan. 2025. HyperBlocker: Accelerating Rule-based Blocking in Entity Resolution using GPUs. PVLDB. 18, x, x-x.'
