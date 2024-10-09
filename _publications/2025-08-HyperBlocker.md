@@ -1,8 +1,8 @@
 ---
 title: "HyperBlocker: Accelerating Rule-based Blocking in Entity Resolution using GPUs"
 collection: publications
-permalink: /publication/2024-10-MiniGraph
-date: OCT 1, 2024
+permalink: /publication/2025-08-MiniGraph
+date: AUG 1, 2025
 venue: 'The 51th International Conference on Very Large Data Bases (VLDB)'
 paperurl: ''
 citation: '<strong>Xiaoke Zhu</strong>, Min Xie, Ting Deng, and Qi Zhang. 2025. HyperBlocker: Accelerating Rule-based Blocking in Entity Resolution using GPUs. PVLDB. 18, x, x-x.'
