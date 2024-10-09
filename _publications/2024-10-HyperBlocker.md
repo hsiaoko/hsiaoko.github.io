@@ -1,5 +1,5 @@
 ---
-title: "HyperBlocker"
+title: "Accelerating Rule-based Blocking in Entity Resolution using GPUs"
 collection: publications
 permalink: /publication/2024-10-HyperBlocker
 date: AUG 1, 2025
