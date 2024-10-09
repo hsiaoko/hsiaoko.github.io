@@ -1,7 +1,7 @@
 ---
-title: "HyperBlocker: Querying Big Graphs with a Single Machine"
+title: "MiniGraph: Querying Big Graphs with a Single Machine"
 collection: publications
-permalink: /publication/2024-10-HyperBlocker
+permalink: /publication/2024-10-MiniGraph
 date: AUG 1, 2025
 venue: 'The 51th International Conference on Very Large Data Bases (VLDB)'
 paperurl: ''
