@@ -5,7 +5,7 @@ permalink: /publication/2023-05-MiniGraph
 date: MAY 1, 2023
 venue: 'The 49th International Conference on Very Large Data Bases (VLDB).'
 paperurl: ''
-citation: '<strong>Xiaoke Zhu</strong>, Yang Liu, Shuhao Liu, and Wenfei Fan. 2023. MiniGraph: Querying Big Graphs with a Single Machine. PVLDB. 16, 9, 2172–2185.'
+citation: '<strong>Xiaoke Zhu</strong>, Yang Liu, Shuhao Liu, and Wenfei Fan. MiniGraph: Querying Big Graphs with a Single Machine. PVLDB. 16, 9, 2172–2185.'
 ---
 
 [<font color='#0000FF'>(Download publication here)</font>](https://hsiaoko.github.io/files/paper/MiniGraph_full_paper.pdf)
