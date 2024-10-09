@@ -1,5 +1,5 @@
 ---
-title: "MiniGraph: Querying Big Graphs with a Single Machine"
+title: "HyperBlocker: Accelerating Rule-based Blocking in Entity Resolution using GPUs"
 collection: publications
 permalink: /publication/2024-10-MiniGraph
 date: MAY 1, 2024
