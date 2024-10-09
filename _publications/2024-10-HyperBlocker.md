@@ -1,11 +1,11 @@
 ---
-title: "HyperBlocker: Accelerating Rule-based Blocking in Entity Resolution using GPUs"
+title: "HyperBlocker"
 collection: publications
 permalink: /publication/2024-10-HyperBlocker
 date: AUG 1, 2025
 venue: 'The 51th International Conference on Very Large Data Bases (VLDB)'
 paperurl: ''
-citation: '<strong>Xiaoke Zhu</strong>, Yang Liu, Shuhao Liu, and Wenfei Fan. 2025. HyperBlocker: Accelerating Rule-based Blocking in Entity Resolution using GPUs. PVLDB. 18, x, x-x.'
+citation: '<strong>Xiaoke Zhu</strong>, Min Xie, Ting Deng, and Qi Zhang. 2025. HyperBlocker: Accelerating Rule-based Blocking in Entity Resolution using GPUs. PVLDB. 18, x, x-x.'
 ---
 
 [<font color='#0000FF'>(Download publication here)</font>](https://hsiaoko.github.io/files/paper/HyperBlocker_full_paper.pdf)
