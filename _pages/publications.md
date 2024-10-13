@@ -24,6 +24,16 @@ You can also find my articles on <u><a href="https://scholar.google.com/citation
 
 ### 2024
 
+<ul>   
+  <li>
+    <p>
+      <b>Xiaoke Zhu</b>, Qi Zhang, Wei Zhou and Ling Liu, <br />
+      <em>Deep Learning Service for Efficient Data Distribution Aware Sorting,</em><br />
+      IEEE International Conference on Big Data (BigData 2024) 
+    </p>
+  </li>
+</ul>
+
 ### 2023
 
 <ul>   
