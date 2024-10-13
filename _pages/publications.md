@@ -4,8 +4,7 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-
-In publications marked with **, authors are ordered alphabetically.
+** indicates that author names or major contributors are listed in alphabetical order.
 You can also find my articles on <u><a href="https://scholar.google.com/citations?user=Zu3XLB8AAAAJ&hl=en">my Google Scholar profile</a>.</u>
 
 
@@ -46,7 +45,7 @@ You can also find my articles on <u><a href="https://scholar.google.com/citation
   <li>
     <p>
       Ting Deng, Wenfei Fan, Ping Lu, Xiaomeng Luo, <b>Xiaoke Zhu**</b>, and Wanhe An, <br />
-      <em>MiniGraph: Querying Big Graphs with a Single Machine,</em><br />
+      <em>Deep and collective entity resolution in parallel,</em><br />
       The 38th International Conference on Data Engineering (ICDE 2022)
       <a href="https://hsiaoko.github.io/files/paper/PER_paper.pdf">[Paper]</a>
     </p>
