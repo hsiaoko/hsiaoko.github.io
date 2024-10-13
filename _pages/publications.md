@@ -17,7 +17,7 @@ You can also find my articles on <u><a href="https://scholar.google.com/citation
       <b>Xiaoke Zhu</b>, Min Xie, Ting Deng, Qi Zhang, <br />
       <em>HyperBlocker: Accelerating Rule-based Blocking in Entity Resolution using GPUs,</em><br />
       The 51th International Conference on Very Large Data Bases (VLDB 2025) 
-      <a href="publication/2025-05-HyperBlocker.pdf">[Paper]</a>
+      <a href="files/paper/HyperBlocker_full_paper.pdf">[Paper]</a>
     </p>
   </li>
 </ul>
@@ -32,7 +32,7 @@ You can also find my articles on <u><a href="https://scholar.google.com/citation
       <b>Xiaoke Zhu</b>, Yang Liu, Shuhao Liu, and Wenfei Fan, <br />
       <em>MiniGraph: Querying Big Graphs with a Single Machine,</em><br />
       The 39th International Conference on Very Large Data Bases (VLDB 2023) 
-      <a href="publication/2025-05-HyperBlocker.pdf">[Paper]</a>
+      <a href="https://hsiaoko.github.io/files/paper/HyperBlocker_full_paper.pdf">[Paper]</a>
     </p>
   </li>
 </ul>
@@ -62,13 +62,3 @@ You can also find my articles on <u><a href="https://scholar.google.com/citation
     </p>
   </li>
 </ul>
-
-
-<!--
-
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
--->
