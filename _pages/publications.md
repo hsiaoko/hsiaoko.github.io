@@ -68,7 +68,7 @@ You can also find my articles on <u><a href="https://scholar.google.com/citation
   <li>
     <p>
       <b>Xiaoke Zhu</b>, Qi Zhang, Taining Cheng, Ling Liu, Wei Zhou, and Jing He, <br />
-      <em>Deep and Collective Entity Resolution in Parallel,</em><br />
+      <em>DLB: Deep Learning Based Load Balancing,</em><br />
       The 14th International Conference on Cloud Computing (CLOUD 2021)
       <a href="https://hsiaoko.github.io/files/paper/DLB_paper.pdf">[Paper]</a>
       <a href="https://github.com/hsiaoko/DLB-CLOUD-2021">[Source Code]</a>
