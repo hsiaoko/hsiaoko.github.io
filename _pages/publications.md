@@ -29,7 +29,8 @@ You can also find my articles on <u><a href="https://scholar.google.com/citation
     <p>
       <b>Xiaoke Zhu</b>, Qi Zhang, Wei Zhou and Ling Liu, <br />
       <em>Deep Learning Service for Efficient Data Distribution Aware Sorting,</em><br />
-      IEEE International Conference on Big Data (BigData 2024) 
+      The 12th International Conference on Big Data (BigData 2024) 
+      <a href="https://hsiaoko.github.io/files/paper/NN-sort_paper.pdf">[Paper]</a>
     </p>
   </li>
 </ul>
