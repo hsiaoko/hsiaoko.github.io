@@ -32,7 +32,7 @@ I have leverages machine learning and deep learning model to improve tasks tradi
 
 
 # News
-* (2024/10) Our [Deep Learning Service for Efficient Data Distribution Aware Sortin](https://hsiaoko.github.io/files/paper/NN-sort_paper.pdf) paper was accepted to **BigData 2024**.
+* (2024/10) Our [Deep Learning Service for Efficient Data Distribution Aware Sorting](https://hsiaoko.github.io/files/paper/NN-sort_paper.pdf) paper was accepted to **BigData 2024**.
 * (2024/10) Our [HyperBlocker: Accelerating Rule-based Blocking in Entity Resolution using GPUs](https://hsiaoko.github.io/files/paper/HyperBlocker_full_paper.pdf) paper was accepted to **VLDB 2025**.
 * (2023/04) Our [MiniGraph: Querying Big Graphs with a Single Machine](https://hsiaoko.github.io/files/paper/MiniGraph_full_paper.pdf) paper was accepted to **VLDB 2023**.
 * (2022/02) Our [Deep and Collective Entity Resolution in Parallel](https://hsiaoko.github.io/files/paper/PER_paper.pdf) paper was accepted to **ICDE 2022**.
