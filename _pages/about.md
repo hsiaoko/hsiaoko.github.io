@@ -39,18 +39,19 @@ I have leverages machine learning and deep learning model to improve tasks tradi
 * (2021/09) I joined [Shenzhen Institute of Computing Science](https://en.sics.ac.cn) (SICS) as a research intern.
 * (2021/07) Our [DLB: Deep Learning Based Load Balancing](https://hsiaoko.github.io/files/paper/DLB_paper.pdf) paper was accepted to **CLOUD 2021**.
 
+<!--
 # Talks
 * "MiniGraph: Querying Big Graphs with a Single Machine"
   * Great Bay Area Digital Tech Workshop, June 2023
   * VLDB conference, September 2023
 * "DLB: Deep Learning Based Load Balancing"
   * IEEE CLOUD conference, September 2021
+-->
 
 
-# Professional Service
-I am/was an external reviewer for the following conferences:
-* HPCC 2019, ICDE 2024
-
+# Professional Services
+### External Reviewer
+* HPCC'19, ICDE'24
 
 <br/><br/>
 
