@@ -22,13 +22,13 @@ Xiaoke Zhu,  pronounced as "Hsiǎo K‘o Chū" in Wade-Giles romanization, is cu
 My research are broadly in the field of graph computing and databases, with an emphasis on optimizing runtime systems for shared-memory and heterogeneous architectures of CPUs/GPUs.  This work has been published in SIGMOD, VLDB, ICDE, BigData, CLOUD. A brief summary of my past work can be found below.
 
 ### Single Machine Graph Processing 
-I have worked on building a high-level programming model and runtime system that can execute applications on shared-memory or out-of-memory architectures with CPUs or GPUs. For out-of-core graph analytics (e.g., PageRank, SSSP), I improved I/O efficiency, and for graph mining (e.g., Graph Data Cleaning, Pattern Matching), I optimized GPU performance. Relevant results were published in  [[VLDB23](https://hsiaoko.github.io/files/paper/MiniGraph_full_paper.pdf), SIGMOD25, VLDB25]
+I have worked on building a high-level programming model and runtime system that can execute applications on shared-memory or out-of-memory architectures with CPUs or GPUs. For out-of-core graph analytics (e.g., PageRank, SSSP), I improved I/O efficiency, and for graph mining (e.g., Graph Data Cleaning, Pattern Matching), I optimized GPU performance. Relevant results were published in  [[VLDB'23](https://hsiaoko.github.io/files/paper/MiniGraph_full_paper.pdf), SIGMOD'25, VLDB'25]
 
 ### Parallel Data Cleaning
-I have worked on improving the performance of data cleaning systems on modern hardware like GPU or on distributed cluster. I have also compared different parallel runtime systems for data cleaning, and identified their performance bottlenecks.  Relevant results were published in  [[ICDE22](https://hsiaoko.github.io/files/paper/PER_paper.pdf), [VLDB25](https://hsiaoko.github.io/files/paper/HyperBlocker_full_paper.pdf), TKDE25, SIGMOD25]
+I have worked on improving the performance of data cleaning systems on modern hardware like GPU or on distributed cluster. I have also compared different parallel runtime systems for data cleaning, and identified their performance bottlenecks.  Relevant results were published in  [[ICDE'22](https://hsiaoko.github.io/files/paper/PER_paper.pdf), [VLDB'25](https://hsiaoko.github.io/files/paper/HyperBlocker_full_paper.pdf), TKDE'25, SIGMOD'25]
 
 ### AI4DB
-I have leverages machine learning and deep learning model to improve tasks traditionally handled by  human database administrators or classical algorithms, enabling more efficient data processing and resource management. Specially I have designed learned models for sorting, load balancing, and scheduling. Relevant results were published in  [[CLOUD21](https://hsiaoko.github.io/files/paper/DLB_paper.pdf), [BigData24](https://hsiaoko.github.io/files/paper/NN-sort_paper.pdf)]
+I have leverages machine learning and deep learning model to improve tasks traditionally handled by  human database administrators or classical algorithms, enabling more efficient data processing and resource management. Specially I have designed learned models for sorting, load balancing, and scheduling. Relevant results were published in  [[CLOUD'21](https://hsiaoko.github.io/files/paper/DLB_paper.pdf), [BigData'24](https://hsiaoko.github.io/files/paper/NN-sort_paper.pdf)]
 
 
 # News
