@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Xiaoke ZHU's Homepage"
+title                    : "Xiaoke Zhu"
 title_separator          : "-"
-name                     : &name "Xiaoke ZHU"
-description              : &description "PhD Candidate in Computer Science at Beihang University"
+name                     : &name "Xiaoke Zhu"
+description              : &description "Ph.D. candidate at Beihang University"
 url                      : https://hsiaoko.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "hsiaoko.github.io"
@@ -78,7 +78,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Xiaoke ZHU (朱筱可, Hsiǎo K‘o Chū in Wade-Giles romanization)"
+  name             : "Xiaoke ZHU (Hsiǎo K‘o Chū in Wade-Giles romanization)"
   avatar           : "xiaoke_at_sics.png"
   bio              : "Ph.D. candidate at ACT lab, Beihang University"
   location         : "Shenzhen, China"

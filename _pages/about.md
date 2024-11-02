@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Xiaoke ZHU"
+title: "Xiaoke Zhu"
 excerpt: "Homepage"
 author_profile: true
 redirect_from: 
@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. candidate in the [ACT lab](http://act.buaa.edu.cn) at [Beihang University](https://ev.buaa.edu.cn/) (BUAA), supervised by [Prof. Wenfei Fan](https://homepages.inf.ed.ac.uk/wenfei/). I received master degree at [Yunnan University](http://english.ynu.edu.cn/) (YNU) in 2020, where I was advised by [Prof. Wei Zhou](https://ieeexplore.ieee.org/author/37085625745) and [Prof. Shaowen Yao](https://ieeexplore.ieee.org/author/37402574900).
+I am Xiaoke Zhu~(朱筱可), currently a Ph.D. candidate in the  [ACT lab](http://act.buaa.edu.cn) at [Beihang University](https://ev.buaa.edu.cn/) (BUAA), supervised by [Prof. Wenfei Fan](https://homepages.inf.ed.ac.uk/wenfei/). I received master degree at [Yunnan University](http://english.ynu.edu.cn/) (YNU) in 2020, where I was advised by [Prof. Wei Zhou](https://ieeexplore.ieee.org/author/37085625745) and [Prof. Shaowen Yao](https://ieeexplore.ieee.org/author/37402574900).
 
 
 <font color=red>
