@@ -13,6 +13,18 @@ You can also find my articles on <u><a href="https://scholar.google.com/citation
 <ul>   
   <li>
     <p>
+      Yang Liu, Wenfei Fan, Shuhao Liu, <b>Xiaoke Zhu</b>, Jianxin Li<br />
+      <em>A Single Machine System for Querying Big Graphs with PRAM,</em><br />
+      The 51th International Conference on Very Large Data Bases (VLDB 2025)
+      <a href="https://hsiaoko.github.io/files/paper/planer_paper.pdf">[Paper]</a>
+      <a href="https://github.com/SICS-Fundamental-Research-Center/graph-systems">[Source Code]</a>
+    </p>
+  </li>
+</ul>
+
+<ul>   
+  <li>
+    <p>
       <b>Xiaoke Zhu</b>, Min Xie, Ting Deng, Qi Zhang, <br />
       <em>HyperBlocker: Accelerating Rule-based Blocking in Entity Resolution using GPUs,</em><br />
       The 51th International Conference on Very Large Data Bases (VLDB 2025) 
