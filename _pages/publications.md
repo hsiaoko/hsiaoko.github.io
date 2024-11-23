@@ -13,8 +13,8 @@ You can also find my articles on <u><a href="https://scholar.google.com/citation
 <ul>   
   <li>
     <p>
-      Yang Liu, Wenfei Fan, Shuhao Liu, <b>Xiaoke Zhu</b>, Jianxin Li<br />
-      <em>A Single Machine System for Querying Big Graphs with PRAM,</em><br />
+      Yang Liu, Wenfei Fan, Shuhao Liu, <b>Xiaoke Zhu</b>, Jianxin Li <br />
+      <em>A Single Machine System for Querying Big Graphs with PRAM,</em> <br />
       The 51th International Conference on Very Large Data Bases (VLDB 2025)
       <a href="https://hsiaoko.github.io/files/paper/planer_paper.pdf">[Paper]</a>
       <a href="https://github.com/SICS-Fundamental-Research-Center/graph-systems">[Source Code]</a>
@@ -26,7 +26,7 @@ You can also find my articles on <u><a href="https://scholar.google.com/citation
   <li>
     <p>
       <b>Xiaoke Zhu</b>, Min Xie, Ting Deng, Qi Zhang, <br />
-      <em>HyperBlocker: Accelerating Rule-based Blocking in Entity Resolution using GPUs,</em><br />
+      <em>HyperBlocker: Accelerating Rule-based Blocking in Entity Resolution using GPUs,</em> <br />
       The 51th International Conference on Very Large Data Bases (VLDB 2025) 
       <a href="https://hsiaoko.github.io/files/paper/HyperBlocker_full_paper.pdf">[Paper]</a>
       <a href="https://github.com/SICS-Fundamental-Research-Center/HyperBlocker">[Source Code]</a>
@@ -40,7 +40,7 @@ You can also find my articles on <u><a href="https://scholar.google.com/citation
   <li>
     <p>
       <b>Xiaoke Zhu</b>, Qi Zhang, Wei Zhou and Ling Liu, <br />
-      <em>Deep Learning Service for Efficient Data Distribution Aware Sorting,</em><br />
+      <em>Deep Learning Service for Efficient Data Distribution Aware Sorting,</em> <br />
       The 12th International Conference on Big Data (BigData 2024) 
       <a href="https://hsiaoko.github.io/files/paper/NN-sort_paper.pdf">[Paper]</a>
       <a href="https://hsiaoko.github.io/files/slides/NN-sort_slides_BigData_2024.pdf">[Slides]</a>
