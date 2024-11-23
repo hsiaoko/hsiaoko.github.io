@@ -43,7 +43,7 @@ You can also find my articles on <u><a href="https://scholar.google.com/citation
       <em>Deep Learning Service for Efficient Data Distribution Aware Sorting,</em><br />
       The 12th International Conference on Big Data (BigData 2024) 
       <a href="https://hsiaoko.github.io/files/paper/NN-sort_paper.pdf">[Paper]</a>
-      <a href="https://hsiaoko.github.io/files/slides/NN-sort_slides_BigData_2024.pdf">[Paper]</a>
+      <a href="https://hsiaoko.github.io/files/slides/NN-sort_slides_BigData_2024.pdf">[Slides]</a>
     </p>
   </li>
 </ul>
