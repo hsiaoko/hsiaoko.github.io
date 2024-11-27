@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Xiaoke Zhu"
+title: "Biography"
 excerpt: "Homepage"
 author_profile: true
 redirect_from: 
@@ -11,11 +11,13 @@ redirect_from:
 I am Xiaoke Zhu (朱筱可, Hsiǎo K‘o Chū in Wade-Giles romanization), currently a Ph.D. candidate in the  [ACT lab](http://act.buaa.edu.cn) at [Beihang University](https://ev.buaa.edu.cn/) (BUAA), under the supervision of [Prof. Wenfei Fan](https://homepages.inf.ed.ac.uk/wenfei/). I received master degree at [Yunnan University](http://english.ynu.edu.cn/) (YNU) in 2020, where I was advised by [Prof. Wei Zhou](https://ieeexplore.ieee.org/author/37085625745) and [Prof. Shaowen Yao](https://ieeexplore.ieee.org/author/37402574900).
 
 
+<!--
 <font color=red>
   I am looking for a postdoctoral position. If you are interested, please contact me.  
 </font>
 
 <br>
+-->
 
 # Research Interests
 
