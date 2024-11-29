@@ -21,7 +21,7 @@ I am Xiaoke Zhu (朱筱可, Hsiǎo K‘o Chū in Wade-Giles romanization), curre
 
 # Research Interests
 
-My research are broadly in the field of graph computing and databases, with an emphasis on optimizing runtime systems for shared-memory and heterogeneous architectures of CPUs/GPUs.  This work has been published in SIGMOD, VLDB, ICDE, BigData, CLOUD. A brief summary of my past work can be found below.
+My research are broadly in the field of graph computing and databases, with an emphasis on optimizing runtime systems for shared-memory and heterogeneous architectures of CPUs/GPUs.  These work have been published in SIGMOD, VLDB, ICDE, BigData, CLOUD. A brief summary of my past work can be found below.
 
 ### Single Machine Graph Processing 
 I have worked on building a high-level programming model and runtime system that can execute applications on shared-memory or out-of-memory architectures with CPUs or GPUs. For out-of-core graph analytics (e.g., PageRank, SSSP), I improved I/O efficiency, and for graph mining (e.g., Graph Data Cleaning, Pattern Matching), I optimized GPU performance. Relevant results were published in  [[VLDB'23](https://hsiaoko.github.io/files/paper/MiniGraph_full_paper.pdf), [VLDB'25](https://hsiaoko.github.io/files/paper/planar_paper.pdf), SIGMOD'25]
@@ -60,3 +60,4 @@ I have leverages machine learning and deep learning model to improve tasks tradi
 -->
 
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=000000&w=230&t=tt&d=eHHOFbP732DR-cMe1ytaYJxII5gJ_ocpixMhAWlufLU&co=ffffff&ct=0a0909&cmn=00fff0&cmo=f3cefc'></script>
+
