@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am Xiaoke Zhu (朱筱可, Hsiǎo K‘o Chū in Wade-Giles romanization), currently a Ph.D. candidate in the  [ACT lab](http://act.buaa.edu.cn) at [Beihang University](https://ev.buaa.edu.cn/) (BUAA), under the supervision of [Prof. Wenfei Fan](https://homepages.inf.ed.ac.uk/wenfei/). I received master degree at [Yunnan University](http://english.ynu.edu.cn/) (YNU) in 2020, where I was advised by [Prof. Wei Zhou](https://ieeexplore.ieee.org/author/37085625745) and [Prof. Shaowen Yao](https://ieeexplore.ieee.org/author/37402574900).
+I am Xiaoke Zhu (朱筱可, Hsiaoko Chu in Wade-Giles romanization), currently a Ph.D. candidate in the  [ACT lab](http://act.buaa.edu.cn) at [Beihang University](https://ev.buaa.edu.cn/) (BUAA), under the supervision of [Prof. Wenfei Fan](https://homepages.inf.ed.ac.uk/wenfei/). I received master degree at [Yunnan University](http://english.ynu.edu.cn/) (YNU) in 2020, where I was advised by [Prof. Wei Zhou](https://ieeexplore.ieee.org/author/37085625745) and [Prof. Shaowen Yao](https://ieeexplore.ieee.org/author/37402574900).
 
 
 <!--
@@ -24,10 +24,10 @@ I am Xiaoke Zhu (朱筱可, Hsiǎo K‘o Chū in Wade-Giles romanization), curre
 My research are broadly in the field of graph computing and databases, with an emphasis on optimizing runtime systems for shared-memory and heterogeneous architectures of CPUs/GPUs.  These work have been published in SIGMOD, VLDB, ICDE, BigData, CLOUD. A brief summary of my past work can be found below.
 
 ### Single Machine Graph Processing 
-I have worked on building a high-level programming model and runtime system that can execute applications on shared-memory or out-of-memory architectures with CPUs or GPUs. For out-of-core graph analytics (e.g., PageRank, SSSP), I improved I/O efficiency, and for graph mining (e.g., Graph Data Cleaning, Pattern Matching), I optimized GPU performance. Relevant results were published in  [[VLDB'23](https://hsiaoko.github.io/files/paper/MiniGraph_full_paper.pdf), [VLDB'25](https://hsiaoko.github.io/files/paper/planar_paper.pdf), SIGMOD'25]
+I have worked on building a high-level programming model and runtime system that can execute applications on shared-memory or out-of-memory architectures with CPUs or GPUs. For out-of-core graph analytics (e.g., PageRank, SSSP), I improved I/O efficiency, and for graph mining (e.g., Graph Data Cleaning, Pattern Matching), I optimized GPU performance. Relevant results were published in  [[VLDB'23](https://hsiaoko.github.io/files/paper/MiniGraph_full_paper.pdf), [VLDB'25](https://hsiaoko.github.io/files/paper/planar_paper.pdf), [SIGMOD'25](https://hsiaoko.github.io/files/paper/miniclean_paper.pdf)]
 
 ### Parallel Data Cleaning
-I have worked on improving the performance of data cleaning systems on modern hardware like GPU or on distributed cluster. I have also compared different parallel runtime systems for data cleaning, and identified their performance bottlenecks.  Relevant results were published in  [[ICDE'22](https://hsiaoko.github.io/files/paper/PER_paper.pdf), [VLDB'25](https://hsiaoko.github.io/files/paper/HyperBlocker_full_paper.pdf), VLDBJ'25, SIGMOD'25]
+I have worked on improving the performance of data cleaning systems on modern hardware like GPU or on distributed cluster. I have also compared different parallel runtime systems for data cleaning, and identified their performance bottlenecks.  Relevant results were published in  [[ICDE'22](https://hsiaoko.github.io/files/paper/PER_paper.pdf), [VLDB'25](https://hsiaoko.github.io/files/paper/HyperBlocker_full_paper.pdf), VLDBJ'25, [SIGMOD'25](https://hsiaoko.github.io/files/paper/miniclean_paper.pdf)]
 
 ### AI4DB
 I have leverages machine learning and deep learning model to improve tasks traditionally handled by  human database administrators or classical algorithms, enabling more efficient data processing and resource management. Specially I have designed learned models for sorting, load balancing, and scheduling. Relevant results were published in  [[CLOUD'21](https://hsiaoko.github.io/files/paper/DLB_paper.pdf), [BigData'24](https://hsiaoko.github.io/files/paper/NN-sort_paper.pdf)]
