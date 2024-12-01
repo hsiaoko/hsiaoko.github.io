@@ -20,13 +20,12 @@ I am Xiaoke Zhu (朱筱可, Hsiaoko Chu in Wade-Giles romanization), currently a
 -->
 
 # Research Interests
+My research focuses on graph computing and databases, optimizing runtime efficiency for shared-memory and CPU/GPU architectures, with publications in SIGMOD, VLDB, ICDE, BigData, and CLOUD. A brief summary of my past work can be found below.
 
-My research are broadly in the field of graph computing and databases, with an emphasis on optimizing runtime systems for shared-memory and heterogeneous architectures of CPUs/GPUs.  These work have been published in SIGMOD, VLDB, ICDE, BigData, CLOUD. A brief summary of my past work can be found below.
-
-### Single Machine Graph Processing 
+### Graph Computing Systems
 I have worked on building a high-level programming model and runtime system that can execute applications on shared-memory or out-of-memory architectures with CPUs or GPUs. For out-of-core graph analytics (e.g., PageRank, SSSP), I improved I/O efficiency, and for graph mining (e.g., Graph Data Cleaning, Pattern Matching), I optimized GPU performance. Relevant results were published in  [[VLDB'23](https://hsiaoko.github.io/files/paper/MiniGraph_full_paper.pdf), [VLDB'25](https://hsiaoko.github.io/files/paper/planar_paper.pdf), [SIGMOD'25](https://hsiaoko.github.io/files/paper/miniclean_paper.pdf)]
 
-### Parallel Data Cleaning
+### Data Cleaning
 I have worked on improving the performance of data cleaning systems on modern hardware like GPU or on distributed cluster. I have also compared different parallel runtime systems for data cleaning, and identified their performance bottlenecks.  Relevant results were published in  [[ICDE'22](https://hsiaoko.github.io/files/paper/PER_paper.pdf), [VLDB'25](https://hsiaoko.github.io/files/paper/HyperBlocker_full_paper.pdf), VLDBJ'25, [SIGMOD'25](https://hsiaoko.github.io/files/paper/miniclean_paper.pdf)]
 
 ### AI4DB
