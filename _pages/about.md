@@ -53,7 +53,7 @@ I have leverages machine learning and deep learning model to improve tasks tradi
 
 # Professional Services
 ### External Reviewer
-* HPCC'19, ICDE'24
+* ICDE'24, ICDE'25
 
 <br/><br/>
 -->
