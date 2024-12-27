@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Xiaoke Zhu"
+title: "About Me"
 excerpt: "Homepage"
 author_profile: true
 redirect_from: 
@@ -28,7 +28,7 @@ I have worked on building a high-level programming model and runtime system that
 ### Data Cleaning Systems
 I have worked on improving the performance of data cleaning systems on modern hardware like GPU or on distributed cluster. I have also compared different parallel runtime systems for data cleaning, and identified their performance bottlenecks.  Relevant results were published in  [[ICDE'22](https://hsiaoko.github.io/files/paper/PER_paper.pdf), [VLDB'25](https://hsiaoko.github.io/files/paper/HyperBlocker_full_paper.pdf), VLDBJ'25, [SIGMOD'25](https://hsiaoko.github.io/files/paper/miniclean_paper.pdf)]
 
-### AI4DB & Sys
+### AI4DB
 I have leverages machine learning and deep learning model to improve tasks traditionally handled by  human database administrators or classical algorithms, enabling more efficient data processing and resource management. Specially I have designed learned models for sorting, load balancing, and scheduling. Relevant results were published in  [[CLOUD'21](https://hsiaoko.github.io/files/paper/DLB_paper.pdf), [BigData'24](https://hsiaoko.github.io/files/paper/NN-sort_paper.pdf)]
 
 
