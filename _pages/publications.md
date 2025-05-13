@@ -16,7 +16,7 @@ You can also find my articles on <u><a href="https://scholar.google.com/citation
       Wenchao Bai, Wenfei Fan, Shuhao Liu, Kehan Pang, <b>Xiaoke Zhu**</b>, Jiahui Jin, <br />
       <em>GPU-Accelerated Graph Cleaning with a Single Machine,</em> <br />
       The 2025 ACM Conference on Management of Data (SIGMOD 2025) 
-      <a href="https://hsiaoko.github.io/files/paper/miniclean_paper.pdf">[Paper]</a>
+      <a href="https://hsiaoko.github.io/files/paper/Miniclean_paper.pdf">[Paper]</a>
     </p>
   </li>
 </ul>
@@ -27,7 +27,7 @@ You can also find my articles on <u><a href="https://scholar.google.com/citation
       Yang Liu, Wenfei Fan, Shuhao Liu, <b>Xiaoke Zhu</b>, Jianxin Li, <br />
       <em>A Single Machine System for Querying Big Graphs with PRAM,</em> <br />
       The 51th International Conference on Very Large Data Bases (VLDB 2025)
-      <a href="https://hsiaoko.github.io/files/paper/planer_paper.pdf">[Paper]</a>
+      <a href="https://hsiaoko.github.io/files/paper/Planer_paper.pdf">[Paper]</a>
       <a href="https://github.com/SICS-Fundamental-Research-Center/graph-systems">[Source Code]</a>
     </p>
   </li>
