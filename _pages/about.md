@@ -21,14 +21,14 @@ I am Xiaoke Zhu (朱筱可, Hsiaoko Chu in Wade-Giles romanization), currently a
 
 <h2 style="color: black;">News</h2>
 <ul style="list-style-type:disc; padding-left: 0; margin-left: 0;height: 400px;overflow: hidden;overflow-y: scroll;"> 
-<li><span class="label label-success">NOV 2024</span> Our [GPU-Accelerated Graph Cleaning with a Single Machine](https://hsiaoko.github.io/files/paper/miniclean_paper.pdf) paper was accepted to <b>SIGMOD 2025</b>. </li>
-<li><span class="label label-success">NOV 2024</span> Our [A Single Machine System for Querying Big Graphs with PRAM](https://hsiaoko.github.io/files/paper/planar_paper.pdf) paper was accepted to <b>VLDB 2025</b>. </li>
-<li><span class="label label-success">OCT 2024</span> Our [HyperBlocker: Accelerating Rule-based Blocking in Entity Resolution using GPUs](https://hsiaoko.github.io/files/paper/HyperBlocker_full_paper.pdf) paper was accepted to <b>VLDB 2025</b>. </li>
-<li><span class="label label-success">OCT 2024</span> Our [Deep Learning Service for Efficient Data Distribution Aware Sorting](https://hsiaoko.github.io/files/paper/NN-sort_paper.pdf) paper was accepted to <b>IEEE BigData 2024</b>. </li>
-<li><span class="label label-success">Apr 2023</span> Our [MiniGraph: Querying Big Graphs with a Single Machine](https://hsiaoko.github.io/files/paper/MiniGraph_full_paper.pdf) paper was accepted to <b>VLDB 2023</b>. </li>
-<li><span class="label label-success">Feb 2022</span> Our [Deep and Collective Entity Resolution in Parallel](https://hsiaoko.github.io/files/paper/PER_paper.pdf) paper was accepted to <b>ICDE 2022</b>. </li>
-<li><span class="label label-success">Sep 2021</span> I joined [Shenzhen Institute of Computing Science](https://en.sics.ac.cn) (SICS) as a research intern. </li>
-<li><span class="label label-success">Jul 2021</span> Our [DLB: Deep Learning Based Load Balancing](https://hsiaoko.github.io/files/paper/DLB_paper.pdf) paper was accepted to <b>IEEE CLOUD 2021</b>. </li>
+<li><span class="label label-success">[NOV 2024]</span> Our  <a href="https://hsiaoko.github.io/files/paper/miniclean_paper.pdf">[GPU-Accelerated Graph Cleaning with a Single Machine] paper was accepted to <b>SIGMOD 2025</b>. </li>
+<li><span class="label label-success">[NOV 2024]</span> Our  <a href="https://hsiaoko.github.io/files/paper/planar_paper.pdf">[A Single Machine System for Querying Big Graphs with PRAM] paper was accepted to <b>VLDB 2025</b>. </li>
+<li><span class="label label-success">[OCT 2024]</span> Our <a href="https://hsiaoko.github.io/files/paper/HyperBlocker_full_paper.pdf">[HyperBlocker: Accelerating Rule-based Blocking in Entity Resolution using GPUs] paper was accepted to <b>VLDB 2025</b>. </li>
+<li><span class="label label-success">[OCT 2024]</span> Our <a href="https://hsiaoko.github.io/files/paper/NN-sort_paper.pdf">[Deep Learning Service for Efficient Data Distribution Aware Sorting] paper was accepted to <b>IEEE BigData 2024</b>. </li>
+<li><span class="label label-success">[Apr 2023]</span> Our <a href="https://hsiaoko.github.io/files/paper/MiniGraph_full_paper.pdf">[MiniGraph: Querying Big Graphs with a Single Machine] paper was accepted to <b>VLDB 2023</b>. </li>
+<li><span class="label label-success">[Feb 2022]</span> Our <a href="https://hsiaoko.github.io/files/paper/PER_paper.pdf">[Deep and Collective Entity Resolution in Parallel] paper was accepted to <b>ICDE 2022</b>. </li>
+<li><span class="label label-success">[Sep 2021]</span> I joined [Shenzhen Institute of Computing Science](https://en.sics.ac.cn) (SICS) as a research intern. </li>
+<li><span class="label label-success">[Jul 2021]</span> Our <a href="https://hsiaoko.github.io/files/paper/DLB_paper.pdf">[DLB: Deep Learning Based Load Balancing] paper was accepted to <b>IEEE CLOUD 2021</b>. </li>
 </ul>
 
 # Research Interests
