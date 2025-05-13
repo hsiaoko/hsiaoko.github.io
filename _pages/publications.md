@@ -16,7 +16,7 @@ You can also find my articles on <u><a href="https://scholar.google.com/citation
       Wenchao Bai, Wenfei Fan, Shuhao Liu, Kehan Pang, <b>Xiaoke Zhu**</b>, Jiahui Jin, <br />
       <em>GPU-Accelerated Graph Cleaning with a Single Machine,</em> <br />
       The 2025 ACM Conference on Management of Data (SIGMOD 2025) 
-      <a href="https://hsiaoko.github.io/files/paper/Miniclean_paper.pdf">[Paper]</a>
+      <a href="https://hsiaoko.github.io/files/paper/MiniClean_paper.pdf">[Paper]</a>
     </p>
   </li>
 </ul>
