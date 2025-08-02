@@ -11,7 +11,11 @@ redirect_from:
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+<style>
+    :root {
+      font-size: 14px; /* 默认16px，改为18px（所有rem单位会按比例缩放） */
+    }
+</style>
 
 
 I am Xiaoke Zhu (朱筱可, Hsiaoko Chu in Wade-Giles romanization), 
@@ -19,14 +23,6 @@ currently a research fellow at Shenzhen Institute of Computing Sciences (SICS).
 In Sep. 2025, I received my Ph.D. degree at [Beihang University](https://ev.buaa.edu.cn/) (BUAA), under the supervision of [Prof. Wenfei Fan](https://homepages.inf.ed.ac.uk/wenfei/). 
 Before that, I received master degree at [Yunnan University](http://english.ynu.edu.cn/) (YNU) in 2020, where I was advised by [Prof. Wei Zhou](https://ieeexplore.ieee.org/author/37085625745) and [Prof. Shaowen Yao](https://ieeexplore.ieee.org/author/37402574900).
 
-
-<!--
-<font color=red>
-  I am looking for a postdoctoral position. If you are interested, please contact me.  
-</font>
-
-<br>
--->
 
 <h2 style="color: black;">News</h2>
 <ul style="list-style-type:disc; padding-left: 0; margin-left: 0;height: 400px;overflow: hidden;overflow-y: scroll;"> 
