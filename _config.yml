@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Xiaoke Zhu"
 title_separator          : "-"
 name                     : &name "Xiaoke Zhu"
-description              : &description "Ph.D. candidate at Beihang University"
+description              : &description "Research Fellow at Shenzhen Institute of Computing Sciences (SICS)"
 url                      : https://hsiaoko.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "hsiaoko.github.io"
@@ -80,11 +80,11 @@ analytics:
 author:
   name             : "Xiaoke Zhu"
   avatar           : "xiaoke_at_sics_small.jpg"
-  bio              : "Ph.D. candidate at ACT lab, Beihang University"
+  bio              : "Research Fellow at Shenzhen Institute of Computing Sciences (SICS)"
   location         : "Shenzhen, China"
   employer         : 
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=Zu3XLB8AAAAJ"
-  email            : "zhuxk@buaa.edu.cn"
+  email            : "zhuxk@sics.an.cn"
   uri              :
   bitbucket        :
   codepen          :
