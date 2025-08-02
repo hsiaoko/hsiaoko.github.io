@@ -23,7 +23,7 @@ currently a research fellow at Shenzhen Institute of Computing Sciences (SICS).
 In Sep. 2025, I received my Ph.D. degree at [Beihang University](https://ev.buaa.edu.cn/) (BUAA), under the supervision of [Prof. Wenfei Fan](https://homepages.inf.ed.ac.uk/wenfei/). 
 Before that, I received master degree at [Yunnan University](http://english.ynu.edu.cn/) (YNU) in 2020, where I was advised by [Prof. Wei Zhou](https://ieeexplore.ieee.org/author/37085625745) and [Prof. Shaowen Yao](https://ieeexplore.ieee.org/author/37402574900).
 Further before, I obtained the B.S. degree from Guilin University of Electronic Technology.
-My work focuses on Graph Computing, GPU Accelerated Algorithms, Data Cleaning, and AI4DB. I welcome collaborations and discussions—feel free to reach out via email.
+My work focuses on Graph Computing, GPU Accelerated Algorithms, High Performance Data Cleaning, and AI4DB. I welcome collaborations and discussions—feel free to reach out via email.
 
 
 <h2 style="color: black;">News</h2>
@@ -44,7 +44,7 @@ My research focuses on graph computing and databases, optimizing runtime efficie
 ### Graph Computing Systems
 I have worked on building a high-level programming model and runtime system that can execute applications on shared-memory or out-of-memory architectures with CPUs or GPUs. For out-of-core graph analytics (e.g., PageRank, SSSP), I improved I/O efficiency, and for graph mining (e.g., Graph Data Cleaning, Pattern Matching), I optimized GPU performance. Relevant results were published in  [[VLDB'23](https://hsiaoko.github.io/files/paper/MiniGraph_full_paper.pdf), [VLDB'25](https://hsiaoko.github.io/files/paper/planar_paper.pdf), [SIGMOD'25](https://hsiaoko.github.io/files/paper/miniclean_paper.pdf)]
 
-### Data Cleaning Systems
+### Data Cleaning
 I have worked on improving the performance of data cleaning systems on modern hardware like GPU or on distributed cluster. I have also compared different parallel runtime systems for data cleaning, and identified their performance bottlenecks.  Relevant results were published in  [[ICDE'22](https://hsiaoko.github.io/files/paper/PER_paper.pdf), [VLDB'25](https://hsiaoko.github.io/files/paper/HyperBlocker_full_paper.pdf), [SIGMOD'25](https://hsiaoko.github.io/files/paper/miniclean_paper.pdf)]
 
 ### AI4DB
