@@ -18,7 +18,7 @@ redirect_from:
 </style>
 
 
-I am Xiaoke Zhu (朱筱可, Hsiaoko Chu in Wade-Giles romanization), 
+I am Xiaoke Zhu (Hsiaoko Chu in Wade-Giles romanization), 
 currently a research fellow at Shenzhen Institute of Computing Sciences (SICS).
 In Sep. 2025, I received my Ph.D. degree at [Beihang University](https://ev.buaa.edu.cn/) (BUAA), under the supervision of [Prof. Wenfei Fan](https://homepages.inf.ed.ac.uk/wenfei/). 
 Before that, I received master degree at [Yunnan University](http://english.ynu.edu.cn/) (YNU) in 2020, where I was advised by [Prof. Wei Zhou](https://ieeexplore.ieee.org/author/37085625745) and [Prof. Shaowen Yao](https://ieeexplore.ieee.org/author/37402574900).
