@@ -92,6 +92,7 @@ You can also find my articles on <u><a href="https://scholar.google.com/citation
       <em>Deep and collective entity resolution in parallel,</em><br />
       The 38th International Conference on Data Engineering (ICDE 2022)
       <a href="https://hsiaoko.github.io/files/paper/PER_paper.pdf">[Paper]</a>
+      <a href="https://hsiaoko.github.io/files/slides/PER-slides-5min-0510.pdf">[Slides]</a>
     </p>
   </li>
 </ul>
