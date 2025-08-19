@@ -78,7 +78,7 @@ You can also find my articles on <u><a href="https://scholar.google.com/citation
       The 49th International Conference on Very Large Data Bases (VLDB 2023) 
       <a href="https://hsiaoko.github.io/files/paper/MiniGraph_full_paper.pdf">[Paper]</a>
       <a href="https://github.com/SICS-Fundamental-Research-Center/MiniGraph">[Source Code]</a>
-      <a href="https://hsiaoko.github.io/files/slides/MiniGraph_slides_VLDB2023.pdf">[Slides]</a>
+      <a href="https://hsiaoko.github.io/files/slides/MiniGraph_slides_VLDB_2023.pdf">[Slides]</a>
     </p>
   </li>
 </ul>
