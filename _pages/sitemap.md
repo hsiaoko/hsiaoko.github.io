@@ -18,7 +18,7 @@ author_profile: true
 
 ### Plot
 * [Access 16.5M+ vector icons & stickers](https://www.flaticon.com)
-
+* [Explore our library of over 750,000 cartoons](https://www.cartoonstock.com)
 
 ### Writing and Publishing
 * [Collection of Papers and Advice on Research and Writing](https://www.cs.cmu.edu/afs/cs.cmu.edu/user/mleone/web/how-to.html)
