@@ -20,13 +20,15 @@ redirect_from:
 
 I am Xiaoke Zhu (Hsiaoko Chu in Wade-Giles romanization), 
 currently a research fellow at Shenzhen Institute of Computing Sciences (SICS).
-In Sep. 2025, I received my Ph.D. degree at [Beihang University](https://ev.buaa.edu.cn/) (BUAA), under the supervision of [Prof. Wenfei Fan](https://homepages.inf.ed.ac.uk/wenfei/). 
+In Oct. 2025, I received my Ph.D. degree at [Beihang University](https://ev.buaa.edu.cn/) (BUAA), under the supervision of [Prof. Wenfei Fan](https://homepages.inf.ed.ac.uk/wenfei/). 
 Before that, I received master degree at [Yunnan University](http://english.ynu.edu.cn/) (YNU) in 2020, where I was advised by [Prof. Wei Zhou](https://ieeexplore.ieee.org/author/37085625745) and [Prof. Shaowen Yao](https://ieeexplore.ieee.org/author/37402574900).
 My work focuses on Graph Computing, GPU Accelerated Algorithms, High Performance Data Cleaning, and AI4DB. I welcome collaborations and discussions—feel free to reach out via email.
 
 
 <h2 style="color: black;">News</h2>
 <ul style="list-style-type:disc; padding-left: 0; margin-left: 0;height: 400px;overflow: hidden;overflow-y: scroll;"> 
+<li><span class="badge bg-success">OCT 2025</span> I joined SICS as a research fellow. </li>
+<li><span class="badge bg-success">OCT 2025</span> Successfully defended my Ph.D. thesis. </li>
 <li><span class="badge bg-success">NOV 2024</span> Our  <a href="https://hsiaoko.github.io/files/paper/MiniClean_paper.pdf">GPU-Accelerated Graph Cleaning with a Single Machine</a> paper was accepted to <b>SIGMOD 2025</b>. </li>
 <li><span class="badge bg-success">NOV 2024</span> Our  <a href="https://hsiaoko.github.io/files/paper/Planar_paper.pdf">A Single Machine System for Querying Big Graphs with PRAM</a> paper was accepted to <b>VLDB 2025</b>. </li>
 <li><span class="badge bg-success">OCT 2024</span> Our <a href="https://hsiaoko.github.io/files/paper/HyperBlocker_full_paper.pdf">HyperBlocker: Accelerating Rule-Based Blocking in Entity Resolution Using GPUs</a> paper was accepted to <b>VLDB 2025</b>. </li>
