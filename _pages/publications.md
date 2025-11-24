@@ -23,7 +23,7 @@ You can also find my articles on <u><a href="https://scholar.google.com/citation
       Wenfei Fan, Yixuan Luo, Ping Lu, <b>Xiaoke Zhu**</b>, <br />
       <em>Enumerating Graph Pattern Matches with ML Oracles,</em> <br />
       The 2026 ACM Conference on Management of Data (SIGMOD 2026) 
-      <a href="https://hsiaoko.github.io/files/paper/MiniClean_paper.pdf">[Paper]</a>
+      <a href="https://hsiaoko.github.io/files/paper/NPML_paper.pdf">[Paper]</a>
     </p>
   </li>
 </ul>
