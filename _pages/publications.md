@@ -16,6 +16,18 @@ author_profile: true
 ** indicates that author names or major contributors are listed in alphabetical order.
 You can also find my articles on <u><a href="https://scholar.google.com/citations?user=Zu3XLB8AAAAJ&hl=en">my Google Scholar profile</a>.</u>
 
+### 2026
+<ul>   
+  <li>
+    <p>
+      Wenfei Fan, Yixuan Luo, Ping Lu, <b>Xiaoke Zhu**</b>, <br />
+      <em>Enumerating Graph Pattern Matches with ML Oracles,</em> <br />
+      The 2026 ACM Conference on Management of Data (SIGMOD 2026) 
+      <a href="https://hsiaoko.github.io/files/paper/MiniClean_paper.pdf">[Paper]</a>
+    </p>
+  </li>
+</ul>
+
 
 ### 2025
 

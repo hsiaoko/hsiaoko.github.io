@@ -27,6 +27,7 @@ My work focuses on Graph Computing, GPU Accelerated Algorithms, High Performance
 
 <h2 style="color: black;">News</h2>
 <ul style="list-style-type:disc; padding-left: 0; margin-left: 0;height: 400px;overflow: hidden;overflow-y: scroll;"> 
+<li><span class="badge bg-success">NOV 2025</span> Our  <a href="https://hsiaoko.github.io/files/paper/MiniClean_paper.pdf">Enumerating Graph Pattern Matches with ML Oracles</a> paper was accepted to <b>SIGMOD 2026</b>. </li>
 <li><span class="badge bg-success">OCT 2025</span> I joined <a href="https://en.sics.ac.cn">Shenzhen Institute of Computing Science</a> (SICS) as a research fellow. </li>
 <li><span class="badge bg-success">OCT 2025</span> Successfully defended my Ph.D. thesis. </li>
 <li><span class="badge bg-success">NOV 2024</span> Our  <a href="https://hsiaoko.github.io/files/paper/MiniClean_paper.pdf">GPU-Accelerated Graph Cleaning with a Single Machine</a> paper was accepted to <b>SIGMOD 2025</b>. </li>
@@ -49,7 +50,7 @@ I have worked on building a high-level programming model and runtime system that
 I have worked on improving the performance of data cleaning systems on modern hardware like GPU or on distributed cluster. I have also compared different parallel runtime systems for data cleaning, and identified their performance bottlenecks.  Relevant results were published in  [[ICDE'22](https://hsiaoko.github.io/files/paper/PER_paper.pdf), [VLDB'25](https://hsiaoko.github.io/files/paper/HyperBlocker_full_paper.pdf), [SIGMOD'25](https://hsiaoko.github.io/files/paper/miniclean_paper.pdf)]
 
 ### AI4DB
-I have leverages machine learning and deep learning model to improve tasks traditionally handled by  human database administrators or classical algorithms, enabling more efficient data processing and resource management. Specially I have designed learned models for sorting, load balancing, and scheduling. Relevant results were published in  [[CLOUD'21](https://hsiaoko.github.io/files/paper/DLB_paper.pdf), [BigData'24](https://hsiaoko.github.io/files/paper/NN-sort_paper.pdf)]
+I have leverages machine learning and deep learning model to improve tasks traditionally handled by  human database administrators or classical algorithms, enabling more efficient data processing and resource management. Specially I have designed learned models for sorting, load balancing, and scheduling. Relevant results were published in  [[CLOUD'21](https://hsiaoko.github.io/files/paper/DLB_paper.pdf), [BigData'24](https://hsiaoko.github.io/files/paper/NN-sort_paper.pdf), [SIGMOD'26](https://hsiaoko.github.io/files/paper/NN-sort_paper.pdf)]
 
 
 
