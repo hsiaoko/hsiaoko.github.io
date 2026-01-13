@@ -29,7 +29,7 @@ My work focuses on Graph Computing, GPU Accelerated Algorithms, High Performance
 <ul style="list-style-type:disc; padding-left: 0; margin-left: 0;height: 400px;overflow: hidden;overflow-y: scroll;"> 
 <li><span class="badge bg-success">NOV 2025</span> Our  <a href="https://hsiaoko.github.io/files/paper/NPML_paper.pdf">Enumerating Graph Pattern Matches with ML Oracles</a> paper was accepted to <b>SIGMOD 2026</b>. </li>
 <li><span class="badge bg-success">OCT 2025</span> I joined <a href="https://en.sics.ac.cn">Shenzhen Institute of Computing Science</a> (SICS) as a research fellow. </li>
-<li><span class="badge bg-success">OCT 2025</span> Successfully defended my Ph.D. thesis. </li>
+<li><span class="badge bg-success">NOV 2024</span> Successfully defended my Ph.D. thesis.  <a href="https://hsiaoko.github.io/files/slides/Thesis-slides.pdf">(Download slides here)</a> </li>
 <li><span class="badge bg-success">NOV 2024</span> Our  <a href="https://hsiaoko.github.io/files/paper/MiniClean_paper.pdf">GPU-Accelerated Graph Cleaning with a Single Machine</a> paper was accepted to <b>SIGMOD 2025</b>. </li>
 <li><span class="badge bg-success">NOV 2024</span> Our  <a href="https://hsiaoko.github.io/files/paper/Planar_paper.pdf">A Single Machine System for Querying Big Graphs with PRAM</a> paper was accepted to <b>VLDB 2025</b>. </li>
 <li><span class="badge bg-success">OCT 2024</span> Our <a href="https://hsiaoko.github.io/files/paper/HyperBlocker_full_paper.pdf">HyperBlocker: Accelerating Rule-Based Blocking in Entity Resolution Using GPUs</a> paper was accepted to <b>VLDB 2025</b>. </li>
