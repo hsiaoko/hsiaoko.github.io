@@ -13,6 +13,7 @@ author_profile: true
     }
 </style>
 
+## Conference papers
 ** indicates that author names or major contributors are listed in alphabetical order.
 You can also find my articles on <u><a href="https://scholar.google.com/citations?user=Zu3XLB8AAAAJ&hl=en">my Google Scholar profile</a>.</u>
 
@@ -123,3 +124,32 @@ You can also find my articles on <u><a href="https://scholar.google.com/citation
     </p>
   </li>
 </ul>
+
+## PhD Dissertation
+
+A thesis submitted for the Degree of Doctor of Philosophy to the Beihang Univeristy.
+
+### Abstract
+Graph query, a specialized method for querying graph-structured data, is widely used in areas such as social network analysis, knowledge graph construction, and Web graph mining. To handle massive graph data, various parallel graph query systems have been proposed in both academia and industry. Existing solutions often rely on distributed clusters to support processing at an ultra-large scale, but their high deployment and maintenance costs limit their adoption primarily to large enterprises. In the Chinese market, although small and medium-sized enterprises (SMEs) have a significant need for efficient graph querying, their limited IT budgets make it difficult to implement such applications. To address this, single-machine-based graph query systems have gradually emerged. With the rapid development of hardware acceleration technologies such as GPUs in recent years, modern single-machine systems have demonstrated processing potential that approaches or even rivals that of distributed clusters.
+
+Despite the potential of single-machine graph query systems, they face four challenges:
+
+(1) Programming Model Limitations: Current vertex-centric and graph-centric models present a trade-off: while vertex-centric enables simple programming but suffers from communication overhead, graph-centric supports global operations but leads to computational fragmentation when parallelized. The key challenge is achieving both simplicity and efficiency.
+
+(2) I/O Bottleneck: Processing graphs larger than memory causes frequent data swapping, leading to significant I/O overhead and query latency. The challenge is to minimize data exchange while maximizing resource utilization, enabling single-machine performance to rival distributed clusters.
+
+(3) GPU Acceleration Limitations: Although GPU acceleration addresses CPU parallelism constraints, architectural differences and graph data irregularity cause load imbalance and low utilization. The challenge is designing a hybrid scheduling scheme that adapts to both graph query patterns and GPU architecture.
+
+(4) Domain-Specific Optimization: General-purpose systems underperform in complex scenarios like graph entity recognition, which requires simultaneous pattern matching and semantic computation. The challenge is designing deeply customized architectures tailored to specific computational needs and performance goals.
+
+This research tackles performance optimization in single-machine graph query systems by introducing novel solutions to key challenges in programming models, external storage I/O, GPU acceleration, and domain-specific optimization. The main contributions are as follows:
+
+We propose a hybrid graph-centric/vertex-centric programming model that combines global processing capabilities with fine-grained computation. A two-level parallel architecture is introduced, implementing subgraph-level parallelism to eliminate hop-by-hop communication overhead at the coarse-grained level, and vertex-level parallelism to improve computational efficiency at the fine-grained level.
+
+We design a pipelined external storage architecture that employs asynchronous pipelining and intelligent task scheduling to minimize memory-storage swapping latency, improve resource utilization, and reduce redundant data transfer. Evaluation shows a 76 times performance gain over state-of-the-art external storage graph query systems, effectively overcoming I/O bottlenecks.
+
+We develop a GPU-aware hybrid task scheduling scheme that integrates static pre-partitioning with dynamic scheduling to handle irregular memory access and load imbalance in graph queries. The approach achieves a 12.7 times speedup over existing GPU-based systems while significantly improving resource utilization.
+
+We present a specialized acceleration framework for graph entity recognition, integrating a heterogeneous computing architecture with a rule-data dual-aware optimization engine. The framework employs pipelined processing, GPU-customized kernels, and multi-device coordination for full-process acceleration, along with dynamic cost-based execution planning. It outperforms general-purpose graph query systems by over 9 times.
+
+<a href="https://hsiaoko.github.io/files/slides/Thesis-slides.pdf">[Download slides here]</a>
