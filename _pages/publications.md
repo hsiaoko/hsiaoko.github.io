@@ -127,6 +127,7 @@ You can also find my articles on <u><a href="https://scholar.google.com/citation
 
 ## PhD Dissertation
 
+### Research on Eﬃcient Large-Scale Graph Data Querying Technologies for Single-Machine Systems
 A thesis submitted for the Degree of Doctor of Philosophy to the Beihang Univeristy.
 
 ### Abstract
