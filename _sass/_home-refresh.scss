@@ -34,14 +34,24 @@ body {
 /* --------------------------------------------------------------------------
    Section headings
    -------------------------------------------------------------------------- */
-.home-section-title,
-.pub-year {
+.home-section-title {
   margin: 2rem 0 0.9rem;
   font-size: 0.95rem;
   font-weight: 700;
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: $text-color;
+}
+
+.pub-year {
+  margin: 2rem 0 1rem;
+  padding-bottom: 0.3em;
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: $text-color;
+  border-bottom: 1px solid $border-color;
 }
 
 /* --------------------------------------------------------------------------
@@ -89,6 +99,10 @@ body {
     line-height: 1.6;
     color: $text-color;
   }
+}
+
+.pub-card {
+  margin-left: 1rem;
 }
 
 .pub-authors {
@@ -189,26 +203,6 @@ body {
 .author__bio {
   color: #6B7280;
   line-height: 1.5;
-}
-
-.author__cv {
-  display: inline !important;
-  width: auto !important;
-  margin: 0 0 0.5rem !important;
-  padding: 0 !important;
-  background: none !important;
-  border: 0 !important;
-  box-shadow: none !important;
-  color: $link-color !important;
-  font-weight: 400 !important;
-  text-align: left !important;
-  text-decoration: underline !important;
-
-  &:hover {
-    color: $link-color-hover !important;
-    background: none !important;
-    text-decoration: underline !important;
-  }
 }
 
 /* --------------------------------------------------------------------------
