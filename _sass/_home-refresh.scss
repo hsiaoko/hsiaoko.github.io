@@ -158,26 +158,6 @@ body {
 }
 
 /* --------------------------------------------------------------------------
-   Site analytics note
-   -------------------------------------------------------------------------- */
-.visitor-map {
-  margin-top: 2.5rem;
-
-  &__title {
-    margin-bottom: 0.25rem;
-    font-size: 1rem;
-    font-weight: 700;
-    color: $text-color;
-  }
-
-  &__caption {
-    margin-bottom: 0;
-    font-size: 0.9rem;
-    color: #6B7280;
-  }
-}
-
-/* --------------------------------------------------------------------------
    Author sidebar
    -------------------------------------------------------------------------- */
 .sidebar {
@@ -206,6 +186,26 @@ body {
 .author__bio {
   color: #6B7280;
   line-height: 1.5;
+}
+
+.author__visitor-map {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid $border-color;
+
+  &-title {
+    margin: 0 0 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #6B7280;
+  }
+
+  img,
+  iframe {
+    max-width: 100%;
+  }
 }
 
 /* --------------------------------------------------------------------------
