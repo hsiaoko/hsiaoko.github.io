@@ -209,8 +209,31 @@ body {
 /* --------------------------------------------------------------------------
    Global polish
    -------------------------------------------------------------------------- */
+.masthead__inner-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .masthead__menu-item--lg a {
   font-weight: 700;
+}
+
+.masthead__logo {
+  flex-shrink: 0;
+  margin-left: 1rem;
+
+  img {
+    display: block;
+    width: auto;
+    height: 34px;
+  }
+}
+
+@media (max-width: 600px) {
+  .masthead__logo img {
+    height: 28px;
+  }
 }
 
 .greedy-nav .visible-links a::before {
