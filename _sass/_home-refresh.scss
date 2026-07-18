@@ -213,26 +213,36 @@ body {
   font-weight: 700;
 }
 
-.masthead__logo-item {
-  > a {
-    margin: 0 0.75rem 0 0;
-    padding: 0;
+.masthead__inner-wrap {
+  position: relative;
+}
 
-    &::before {
-      display: none;
-    }
-  }
+.masthead__logo {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  line-height: 0;
+  transform: translateY(-50%);
 
   img {
     display: block;
-    width: auto;
+    width: 30px;
     height: 30px;
   }
 }
 
+.greedy-nav {
+  padding-left: 44px;
+}
+
 @media (max-width: 600px) {
-  .masthead__logo-item img {
+  .masthead__logo img {
+    width: 24px;
     height: 24px;
+  }
+
+  .greedy-nav {
+    padding-left: 36px;
   }
 }
 
