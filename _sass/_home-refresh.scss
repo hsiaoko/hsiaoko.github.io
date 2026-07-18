@@ -209,30 +209,30 @@ body {
 /* --------------------------------------------------------------------------
    Global polish
    -------------------------------------------------------------------------- */
-.masthead__inner-wrap {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 .masthead__menu-item--lg a {
   font-weight: 700;
 }
 
-.masthead__logo {
-  flex-shrink: 0;
-  margin-left: 1rem;
+.masthead__logo-item {
+  > a {
+    margin: 0 0.75rem 0 0;
+    padding: 0;
+
+    &::before {
+      display: none;
+    }
+  }
 
   img {
     display: block;
     width: auto;
-    height: 26px;
+    height: 30px;
   }
 }
 
 @media (max-width: 600px) {
-  .masthead__logo img {
-    height: 22px;
+  .masthead__logo-item img {
+    height: 24px;
   }
 }
 
