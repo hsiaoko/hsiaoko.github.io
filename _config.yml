@@ -75,6 +75,10 @@ analytics:
   google:
     tracking_id          :
 
+# GoatCounter privacy-friendly analytics (https://goatcounter.com)
+# Register your site at goatcounter.com and set the site code here (e.g. "mysite" for https://mysite.goatcounter.com)
+goatcounter             : "hsiaoko"
+
 
 # Site Author
 author:

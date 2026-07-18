@@ -3,6 +3,7 @@ permalink: /
 title: "About Me"
 excerpt: "Homepage"
 author_profile: true
+hide_title: true
 redirect_from: 
   - /about/
   - /about.html
@@ -61,11 +62,16 @@ I am Xiaoke Zhu (Hsiaoko Chu in Wade-Giles romanization), currently a research f
   <p><strong>Representative work:</strong> <a href="/files/paper/DLB_paper.pdf">IEEE CLOUD'21</a>, <a href="/files/paper/NN-sort_paper.pdf">IEEE BigData'24</a></p>
 </div>
 
+{% if site.goatcounter %}
 <div class="visitor-map">
-  <h3 class="visitor-map__title">Visitor Map</h3>
-  <p class="visitor-map__caption">Recent visitors to this page</p>
-  <script type='text/javascript' id='clustrmaps' src='https://clustrmaps.com/map_v2.js?cl=000000&w=230&t=tt&d=eHHOFbP732DR-cMe1ytaYJxII5gJ_ocpixMhAWlufLU&co=ffffff&ct=0a0909&cmn=00fff0&cmo=f3cefc'></script>
+  <h3 class="visitor-map__title">Site Analytics</h3>
+  <p class="visitor-map__caption">
+    Visitor statistics are collected by <a href="https://goatcounter.com">GoatCounter</a> (privacy-friendly, no cookies).
+    View the dashboard at <a href="https://{{ site.goatcounter }}.goatcounter.com">{{ site.goatcounter }}.goatcounter.com</a>.
+  </p>
+  <script data-goatcounter="https://{{ site.goatcounter }}.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </div>
+{% endif %}
 
 <script>
 (function() {
