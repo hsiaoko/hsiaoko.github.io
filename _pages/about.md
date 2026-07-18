@@ -52,5 +52,5 @@ I am Xiaoke Zhu (Hsiaoko Chu in Wade-Giles romanization), currently a research f
 <div class="visitor-map">
   <h3 class="visitor-map__title">Visitor Map</h3>
   <p class="visitor-map__caption">Recent visitors to this page</p>
-  <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=000000&w=a&t=m&d=s52WCoeSjRzYpLSoP3o36QuvlAGRbn0M8sNUgSV8K10&co=ffffff&ct=000000'></script>
+  <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=000000&w=100&t=m&d=s52WCoeSjRzYpLSoP3o36QuvlAGRbn0M8sNUgSV8K10&co=ffffff&ct=000000'></script>
 </div>
