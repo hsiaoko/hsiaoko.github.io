@@ -49,12 +49,8 @@ I am Xiaoke Zhu (Hsiaoko Chu in Wade-Giles romanization), currently a research f
   <p><strong>Representative work:</strong> <a href="/files/paper/DLB_paper.pdf">IEEE CLOUD'21</a>, <a href="/files/paper/NN-sort_paper.pdf">IEEE BigData'24</a></p>
 </div>
 
-{% if site.goatcounter %}
 <div class="visitor-map">
-  <h3 class="visitor-map__title">Site Analytics</h3>
-  <p class="visitor-map__caption">
-    Visitor statistics are collected by <a href="https://goatcounter.com">GoatCounter</a> (privacy-friendly, no cookies).
-    View the dashboard at <a href="https://{{ site.goatcounter }}.goatcounter.com">{{ site.goatcounter }}.goatcounter.com</a>.
-  </p>
+  <h3 class="visitor-map__title">Visitor Map</h3>
+  <p class="visitor-map__caption">Recent visitors to this page</p>
+  <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=000000&w=a&t=m&d=s52WCoeSjRzYpLSoP3o36QuvlAGRbn0M8sNUgSV8K10&co=ffffff&ct=000000'></script>
 </div>
-{% endif %}
