@@ -227,23 +227,23 @@ body {
 
   img {
     display: block;
-    width: 24px;
-    height: 24px;
+    width: 28px;
+    height: 28px;
   }
 }
 
 .greedy-nav {
-  padding-left: 36px;
+  padding-left: 40px;
 }
 
 @media (max-width: 600px) {
   .masthead__logo img {
-    width: 22px;
-    height: 22px;
+    width: 24px;
+    height: 24px;
   }
 
   .greedy-nav {
-    padding-left: 32px;
+    padding-left: 34px;
   }
 }
 
