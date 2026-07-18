@@ -1,136 +1,16 @@
 /* ==========================================================================
    HOMEPAGE REFRESH
-   A modern academic-journal style for the about/home page.
+   A restrained, academic style for the site.
    ========================================================================== */
 
 /* --------------------------------------------------------------------------
-   Hero section
+   Subtitle under the page title
    -------------------------------------------------------------------------- */
-.home-hero {
-  position: relative;
-  margin: -2em -1em 2.5rem;
-  padding: 4rem 1.5rem 4.5rem;
-  background: #0F2A45;
-  color: #FDFCF8;
-  overflow: hidden;
-
-  @include breakpoint($large) {
-    padding: 5rem 2rem 6rem;
-  }
-
-  &__canvas {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-    opacity: 0.35;
-    pointer-events: none;
-  }
-
-  &__content {
-    position: relative;
-    z-index: 1;
-    max-width: 760px;
-  }
-
-  &__name {
-    margin: 0 0 0.35em;
-    font-family: $header-font-family;
-    font-size: 2.75rem;
-    font-weight: 700;
-    line-height: 1.05;
-    color: #FDFCF8;
-
-    @include breakpoint($small) {
-      font-size: 3.25rem;
-    }
-
-    @include breakpoint($large) {
-      font-size: 3.75rem;
-    }
-  }
-
-  &__title {
-    margin: 0 0 0.75em;
-    font-family: $global-font-family;
-    font-size: 1.125rem;
-    font-weight: 500;
-    color: rgba(#FDFCF8, 0.85);
-
-    @include breakpoint($small) {
-      font-size: 1.25rem;
-    }
-  }
-
-  &__tagline {
-    margin: 0 0 1.75em;
-    font-family: $header-font-family;
-    font-size: 1.25rem;
-    font-style: italic;
-    line-height: 1.45;
-    color: rgba(#FDFCF8, 0.92);
-
-    @include breakpoint($small) {
-      font-size: 1.45rem;
-    }
-  }
-
-  &__actions {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.75rem;
-  }
-}
-
-/* --------------------------------------------------------------------------
-   CTA buttons
-   -------------------------------------------------------------------------- */
-.home-cta {
-  display: inline-flex;
-  align-items: center;
-  padding: 0.65em 1.35em;
-  border-radius: 4px;
+.page-subtitle {
+  margin: -0.5em 0 2rem;
   font-family: $global-font-family;
-  font-size: 0.95rem;
-  font-weight: 600;
-  text-decoration: none;
-  transition: transform 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
-
-  &:hover {
-    text-decoration: none;
-    transform: translateY(-1px);
-  }
-
-  &--primary {
-    background: #005F73;
-    color: #FDFCF8;
-
-    &:hover {
-      background: mix(#fff, #005F73, 12%);
-      box-shadow: 0 4px 12px rgba(#005F73, 0.35);
-      color: #FDFCF8;
-    }
-  }
-
-  &--secondary {
-    background: transparent;
-    color: #FDFCF8;
-    box-shadow: inset 0 0 0 2px rgba(#FDFCF8, 0.55);
-
-    &:hover {
-      background: rgba(#FDFCF8, 0.08);
-      box-shadow: inset 0 0 0 2px #FDFCF8;
-      color: #FDFCF8;
-    }
-  }
-
-  svg,
-  .fa {
-    margin-right: 0.45em;
-    font-size: 0.9em;
-  }
+  font-size: 1.05rem;
+  color: #6B7280;
 }
 
 /* --------------------------------------------------------------------------
@@ -142,13 +22,13 @@
   margin-bottom: 2.5rem;
 
   a {
-    color: #005F73;
+    color: #1F3A5F;
     text-decoration: none;
-    border-bottom: 1px solid rgba(#005F73, 0.3);
+    border-bottom: 1px solid rgba(#1F3A5F, 0.3);
 
     &:hover {
       text-decoration: none;
-      border-bottom-color: #005F73;
+      border-bottom-color: #1F3A5F;
     }
   }
 }
@@ -158,7 +38,7 @@
    -------------------------------------------------------------------------- */
 .home-section-title {
   font-family: $header-font-family;
-  font-size: 1.65rem;
+  font-size: 1.5rem;
   font-weight: 700;
   margin: 2.5rem 0 1.25rem;
   padding-bottom: 0.4em;
@@ -167,7 +47,7 @@
 }
 
 /* --------------------------------------------------------------------------
-   News timeline
+   News list
    -------------------------------------------------------------------------- */
 .news-timeline {
   list-style: none;
@@ -175,36 +55,8 @@
   padding: 0;
 
   li {
-    position: relative;
-    padding-left: 1.6rem;
-    margin-bottom: 1.1rem;
-    line-height: 1.55;
-
-    &::before {
-      content: "";
-      position: absolute;
-      top: 0.45em;
-      left: 0;
-      width: 8px;
-      height: 8px;
-      border-radius: 50%;
-      background: #005F73;
-      box-shadow: 0 0 0 3px rgba(#005F73, 0.15);
-    }
-
-    &::after {
-      content: "";
-      position: absolute;
-      top: 1.1em;
-      left: 3.5px;
-      width: 1px;
-      height: calc(100% + 1.1rem);
-      background: $border-color;
-    }
-
-    &:last-child::after {
-      display: none;
-    }
+    margin-bottom: 0.9rem;
+    line-height: 1.6;
   }
 }
 
@@ -231,27 +83,22 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #FDFCF8;
-  background: #B07D62;
+  background: #475569;
   vertical-align: middle;
 }
 
 /* --------------------------------------------------------------------------
-   Research cards
+   Research / publication cards
    -------------------------------------------------------------------------- */
-.research-card {
+.research-card,
+.pub-card {
   background: #fff;
   border: 1px solid $border-color;
-  border-left: 4px solid #005F73;
+  border-left: 3px solid #1F3A5F;
   border-radius: 4px;
   padding: 1.25rem 1.35rem;
   margin-bottom: 1.5rem;
   box-shadow: 0 1px 2px rgba(#0F2A45, 0.04);
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
-
-  &:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 16px rgba(#0F2A45, 0.08);
-  }
 
   h3 {
     font-family: $header-font-family;
@@ -268,88 +115,14 @@
   }
 
   a {
-    color: #005F73;
+    color: #1F3A5F;
     text-decoration: none;
-    border-bottom: 1px solid rgba(#005F73, 0.3);
+    border-bottom: 1px solid rgba(#1F3A5F, 0.3);
 
     &:hover {
-      border-bottom-color: #005F73;
+      border-bottom-color: #1F3A5F;
       text-decoration: none;
     }
-  }
-}
-
-/* --------------------------------------------------------------------------
-   Visitor map
-   -------------------------------------------------------------------------- */
-.visitor-map {
-  margin-top: 3rem;
-  padding-top: 1.5rem;
-  border-top: 1px solid $border-color;
-  text-align: center;
-
-  &__title {
-    font-family: $header-font-family;
-    font-size: 1.15rem;
-    font-weight: 700;
-    margin-bottom: 0.25rem;
-    color: $text-color;
-  }
-
-  &__caption {
-    font-size: 0.85rem;
-    color: #6B7280;
-    margin-bottom: 1rem;
-  }
-}
-
-/* --------------------------------------------------------------------------
-   Author sidebar enhancements
-   -------------------------------------------------------------------------- */
-.sidebar {
-  @include breakpoint($large) {
-    position: sticky;
-    top: 2rem;
-    opacity: 1;
-  }
-}
-
-.author__avatar {
-  img {
-    border-radius: 50%;
-    border: 3px solid #fff;
-    box-shadow: 0 4px 12px rgba(#0F2A45, 0.12);
-    max-width: 150px;
-
-    @include breakpoint($large) {
-      max-width: 170px;
-    }
-  }
-}
-
-.author__name {
-  font-family: $header-font-family;
-  font-weight: 700;
-}
-
-.author__bio {
-  color: #6B7280;
-  line-height: 1.5;
-}
-
-.author__cv {
-  display: block;
-  width: 100%;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  text-align: center;
-  background: #005F73;
-  color: #FDFCF8;
-  font-weight: 600;
-
-  &:hover {
-    background: mix(#fff, #005F73, 12%);
-    color: #FDFCF8;
   }
 }
 
@@ -358,28 +131,12 @@
    -------------------------------------------------------------------------- */
 .pub-year {
   font-family: $header-font-family;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   font-weight: 700;
   margin: 2.5rem 0 1.25rem;
   padding-bottom: 0.35em;
   border-bottom: 1px solid $border-color;
   color: $text-color;
-}
-
-.pub-card {
-  background: #fff;
-  border: 1px solid $border-color;
-  border-left: 4px solid #005F73;
-  border-radius: 4px;
-  padding: 1.25rem 1.35rem;
-  margin-bottom: 1.5rem;
-  box-shadow: 0 1px 2px rgba(#0F2A45, 0.04);
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
-
-  &:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 16px rgba(#0F2A45, 0.08);
-  }
 }
 
 .pub-authors {
@@ -424,24 +181,24 @@
   font-size: 0.8rem;
   font-weight: 600;
   text-decoration: none;
-  color: #005F73;
-  border: 1px solid rgba(#005F73, 0.4);
+  color: #1F3A5F;
+  border: 1px solid rgba(#1F3A5F, 0.4);
   transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
 
   &:hover {
-    background: #005F73;
+    background: #1F3A5F;
     color: #FDFCF8;
-    border-color: #005F73;
+    border-color: #1F3A5F;
     text-decoration: none;
   }
 
   &--paper {
-    background: #005F73;
+    background: #1F3A5F;
     color: #FDFCF8;
-    border-color: #005F73;
+    border-color: #1F3A5F;
 
     &:hover {
-      background: mix(#fff, #005F73, 12%);
+      background: mix(#fff, #1F3A5F, 12%);
     }
   }
 }
@@ -453,14 +210,99 @@
   margin-bottom: 1.5rem;
 
   a {
-    color: #005F73;
+    color: #1F3A5F;
     text-decoration: none;
-    border-bottom: 1px solid rgba(#005F73, 0.3);
+    border-bottom: 1px solid rgba(#1F3A5F, 0.3);
 
     &:hover {
-      border-bottom-color: #005F73;
+      border-bottom-color: #1F3A5F;
       text-decoration: none;
     }
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Site analytics note
+   -------------------------------------------------------------------------- */
+.visitor-map {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid $border-color;
+  text-align: center;
+
+  &__title {
+    font-family: $header-font-family;
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+    color: $text-color;
+  }
+
+  &__caption {
+    font-size: 0.85rem;
+    color: #6B7280;
+    margin-bottom: 1rem;
+
+    a {
+      color: #1F3A5F;
+      text-decoration: none;
+      border-bottom: 1px solid rgba(#1F3A5F, 0.3);
+
+      &:hover {
+        border-bottom-color: #1F3A5F;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Author sidebar
+   -------------------------------------------------------------------------- */
+.sidebar {
+  @include breakpoint($large) {
+    position: sticky;
+    top: 2rem;
+    opacity: 1;
+  }
+}
+
+.author__avatar {
+  img {
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 0 4px 12px rgba(#0F2A45, 0.12);
+    max-width: 150px;
+
+    @include breakpoint($large) {
+      max-width: 170px;
+    }
+  }
+}
+
+.author__name {
+  font-family: $header-font-family;
+  font-weight: 700;
+}
+
+.author__bio {
+  color: #6B7280;
+  line-height: 1.5;
+}
+
+.author__cv {
+  display: block;
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  background: #1F3A5F;
+  color: #FDFCF8;
+  font-weight: 600;
+
+  &:hover {
+    background: mix(#fff, #1F3A5F, 12%);
+    color: #FDFCF8;
   }
 }
 
@@ -474,7 +316,7 @@
 }
 
 .greedy-nav .visible-links a::before {
-  background: #0A9396;
+  background: #1F3A5F;
 }
 
 .page__footer {
@@ -486,7 +328,7 @@
     color: #6B7280;
 
     &:hover {
-      color: #005F73;
+      color: #1F3A5F;
       text-decoration: none;
     }
   }
@@ -498,20 +340,20 @@
 
 .btn--primary {
   &:hover {
-    background-color: #005F73;
+    background-color: #1F3A5F;
   }
 }
 
 .page__content {
   a {
-    color: #005F73;
+    color: #1F3A5F;
     text-decoration: none;
-    border-bottom: 1px solid rgba(#005F73, 0.25);
+    border-bottom: 1px solid rgba(#1F3A5F, 0.25);
     transition: border-color 0.15s ease, color 0.15s ease;
 
     &:hover {
-      color: #005F73;
-      border-bottom-color: #005F73;
+      color: #1F3A5F;
+      border-bottom-color: #1F3A5F;
       text-decoration: none;
     }
   }
