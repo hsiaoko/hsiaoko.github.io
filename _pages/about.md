@@ -69,7 +69,6 @@ I am Xiaoke Zhu (Hsiaoko Chu in Wade-Giles romanization), currently a research f
     Visitor statistics are collected by <a href="https://goatcounter.com">GoatCounter</a> (privacy-friendly, no cookies).
     View the dashboard at <a href="https://{{ site.goatcounter }}.goatcounter.com">{{ site.goatcounter }}.goatcounter.com</a>.
   </p>
-  <script data-goatcounter="https://{{ site.goatcounter }}.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </div>
 {% endif %}
 
