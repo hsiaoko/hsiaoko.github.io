@@ -4,130 +4,103 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-    :root {
-      font-size: 16px; /* 默认16px，改为18px（所有rem单位会按比例缩放） */
-    }
-</style>
 
-## Conference papers
+<p class="pub-note">
 ** indicates that author names or major contributors are listed in alphabetical order.
-You can also find my articles on <u><a href="https://scholar.google.com/citations?user=Zu3XLB8AAAAJ&hl=en">my Google Scholar profile</a>.</u>
+My full publication list is also available on <a href="https://scholar.google.com/citations?user=Zu3XLB8AAAAJ&amp;hl=en">Google Scholar</a>.
+</p>
 
-### 2026
-<ul>   
-  <li>
-    <p>
-      Wenfei Fan, Yixuan Luo, Ping Lu, <b>Xiaoke Zhu**</b>, <br />
-      <em>Enumerating Graph Pattern Matches with ML Oracles,</em> <br />
-      The 2026 ACM Conference on Management of Data (SIGMOD 2026) 
-      <a href="https://hsiaoko.github.io/files/paper/NPML_paper.pdf">[Paper]</a>
-    </p>
-  </li>
-</ul>
+<h2 class="pub-year">2026</h2>
+<div class="pub-card">
+  <p class="pub-authors">Wenfei Fan, Yixuan Luo, Ping Lu, <strong>Xiaoke Zhu**</strong></p>
+  <h3 class="pub-title">Enumerating Graph Pattern Matches with ML Oracles</h3>
+  <p class="pub-venue"><span class="venue-badge">SIGMOD'26</span> The 2026 ACM Conference on Management of Data</p>
+  <div class="pub-actions">
+    <a class="pub-action pub-action--paper" href="https://hsiaoko.github.io/files/paper/NPML_paper.pdf">Paper</a>
+  </div>
+</div>
 
+<h2 class="pub-year">2025</h2>
+<div class="pub-card">
+  <p class="pub-authors">Wenchao Bai, Wenfei Fan, Shuhao Liu, Kehan Pang, <strong>Xiaoke Zhu**</strong>, Jiahui Jin</p>
+  <h3 class="pub-title">GPU-Accelerated Graph Cleaning with a Single Machine</h3>
+  <p class="pub-venue"><span class="venue-badge">SIGMOD'25</span> The 2025 ACM Conference on Management of Data</p>
+  <div class="pub-actions">
+    <a class="pub-action pub-action--paper" href="https://hsiaoko.github.io/files/paper/MiniClean_paper.pdf">Paper</a>
+  </div>
+</div>
 
-### 2025
+<div class="pub-card">
+  <p class="pub-authors">Yang Liu, Wenfei Fan, Shuhao Liu, <strong>Xiaoke Zhu</strong>, Jianxin Li</p>
+  <h3 class="pub-title">A Single Machine System for Querying Big Graphs with PRAM</h3>
+  <p class="pub-venue"><span class="venue-badge">VLDB'25</span> The 51th International Conference on Very Large Data Bases</p>
+  <div class="pub-actions">
+    <a class="pub-action pub-action--paper" href="https://hsiaoko.github.io/files/paper/Planar_paper.pdf">Paper</a>
+    <a class="pub-action" href="https://github.com/SICS-Fundamental-Research-Center/graph-systems">Source Code</a>
+  </div>
+</div>
 
-<ul>   
-  <li>
-    <p>
-      Wenchao Bai, Wenfei Fan, Shuhao Liu, Kehan Pang, <b>Xiaoke Zhu**</b>, Jiahui Jin, <br />
-      <em>GPU-Accelerated Graph Cleaning with a Single Machine,</em> <br />
-      The 2025 ACM Conference on Management of Data (SIGMOD 2025) 
-      <a href="https://hsiaoko.github.io/files/paper/MiniClean_paper.pdf">[Paper]</a>
-    </p>
-  </li>
-</ul>
+<div class="pub-card">
+  <p class="pub-authors"><strong>Xiaoke Zhu</strong>, Min Xie, Ting Deng, Qi Zhang</p>
+  <h3 class="pub-title">HyperBlocker: Accelerating Rule-based Blocking in Entity Resolution using GPUs</h3>
+  <p class="pub-venue"><span class="venue-badge">VLDB'25</span> The 51th International Conference on Very Large Data Bases</p>
+  <div class="pub-actions">
+    <a class="pub-action pub-action--paper" href="https://hsiaoko.github.io/files/paper/HyperBlocker_full_paper.pdf">Paper</a>
+    <a class="pub-action" href="https://github.com/SICS-Fundamental-Research-Center/HyperBlocker">Source Code</a>
+    <a class="pub-action" href="https://hsiaoko.github.io/files/slides/HyperBlocker_slides_VLDB_2025.pdf">Slides</a>
+  </div>
+</div>
 
-<ul>   
-  <li>
-    <p>
-      Yang Liu, Wenfei Fan, Shuhao Liu, <b>Xiaoke Zhu</b>, Jianxin Li, <br />
-      <em>A Single Machine System for Querying Big Graphs with PRAM,</em> <br />
-      The 51th International Conference on Very Large Data Bases (VLDB 2025)
-      <a href="https://hsiaoko.github.io/files/paper/Planar_paper.pdf">[Paper]</a>
-      <a href="https://github.com/SICS-Fundamental-Research-Center/graph-systems">[Source Code]</a>
-    </p>
-  </li>
-</ul>
+<h2 class="pub-year">2024</h2>
+<div class="pub-card">
+  <p class="pub-authors"><strong>Xiaoke Zhu</strong>, Qi Zhang, Wei Zhou and Ling Liu</p>
+  <h3 class="pub-title">Deep Learning Service for Efficient Data Distribution Aware Sorting</h3>
+  <p class="pub-venue"><span class="venue-badge">BigData'24</span> The 12th International Conference on Big Data</p>
+  <div class="pub-actions">
+    <a class="pub-action pub-action--paper" href="https://hsiaoko.github.io/files/paper/NN-sort_paper.pdf">Paper</a>
+    <a class="pub-action" href="https://hsiaoko.github.io/files/slides/NN-sort_slides_BigData_2024.pdf">Slides</a>
+  </div>
+</div>
 
-<ul>   
-  <li>
-    <p>
-      <b>Xiaoke Zhu</b>, Min Xie, Ting Deng, Qi Zhang, <br />
-      <em>HyperBlocker: Accelerating Rule-based Blocking in Entity Resolution using GPUs,</em> <br />
-      The 51th International Conference on Very Large Data Bases (VLDB 2025) 
-      <a href="https://hsiaoko.github.io/files/paper/HyperBlocker_full_paper.pdf">[Paper]</a>
-      <a href="https://github.com/SICS-Fundamental-Research-Center/HyperBlocker">[Source Code]</a>
-      <a href="https://hsiaoko.github.io/files/slides/HyperBlocker_slides_VLDB_2025.pdf">[Slides]</a>
-    </p>
-  </li>
-</ul>
+<h2 class="pub-year">2023</h2>
+<div class="pub-card">
+  <p class="pub-authors"><strong>Xiaoke Zhu</strong>, Yang Liu, Shuhao Liu, and Wenfei Fan</p>
+  <h3 class="pub-title">MiniGraph: Querying Big Graphs with a Single Machine</h3>
+  <p class="pub-venue"><span class="venue-badge">VLDB'23</span> The 49th International Conference on Very Large Data Bases</p>
+  <div class="pub-actions">
+    <a class="pub-action pub-action--paper" href="https://hsiaoko.github.io/files/paper/MiniGraph_full_paper.pdf">Paper</a>
+    <a class="pub-action" href="https://github.com/SICS-Fundamental-Research-Center/MiniGraph">Source Code</a>
+    <a class="pub-action" href="https://hsiaoko.github.io/files/slides/MiniGraph_slides_VLDB_2023.pdf">Slides</a>
+  </div>
+</div>
 
-### 2024
+<h2 class="pub-year">2022</h2>
+<div class="pub-card">
+  <p class="pub-authors">Ting Deng, Wenfei Fan, Ping Lu, Xiaomeng Luo, <strong>Xiaoke Zhu**</strong>, and Wanhe An</p>
+  <h3 class="pub-title">Deep and Collective Entity Resolution in Parallel</h3>
+  <p class="pub-venue"><span class="venue-badge">ICDE'22</span> The 38th International Conference on Data Engineering</p>
+  <div class="pub-actions">
+    <a class="pub-action pub-action--paper" href="https://hsiaoko.github.io/files/paper/PER_paper.pdf">Paper</a>
+    <a class="pub-action" href="https://hsiaoko.github.io/files/slides/PER-slides-5min-0510.pdf">Slides</a>
+  </div>
+</div>
 
-<ul>   
-  <li>
-    <p>
-      <b>Xiaoke Zhu</b>, Qi Zhang, Wei Zhou and Ling Liu, <br />
-      <em>Deep Learning Service for Efficient Data Distribution Aware Sorting,</em> <br />
-      The 12th International Conference on Big Data (BigData 2024) 
-      <a href="https://hsiaoko.github.io/files/paper/NN-sort_paper.pdf">[Paper]</a>
-      <a href="https://hsiaoko.github.io/files/slides/NN-sort_slides_BigData_2024.pdf">[Slides]</a>
-    </p>
-  </li>
-</ul>
+<h2 class="pub-year">2021</h2>
+<div class="pub-card">
+  <p class="pub-authors"><strong>Xiaoke Zhu</strong>, Qi Zhang, Taining Cheng, Ling Liu, Wei Zhou, and Jing He</p>
+  <h3 class="pub-title">DLB: Deep Learning Based Load Balancing</h3>
+  <p class="pub-venue"><span class="venue-badge">IEEE CLOUD'21</span> The 14th International Conference on Cloud Computing</p>
+  <div class="pub-actions">
+    <a class="pub-action pub-action--paper" href="https://hsiaoko.github.io/files/paper/DLB_paper.pdf">Paper</a>
+    <a class="pub-action" href="https://github.com/hsiaoko/DLB-CLOUD-2021">Source Code</a>
+  </div>
+</div>
 
-### 2023
-
-<ul>   
-  <li>
-    <p>
-      <b>Xiaoke Zhu</b>, Yang Liu, Shuhao Liu, and Wenfei Fan, <br />
-      <em>MiniGraph: Querying Big Graphs with a Single Machine,</em><br />
-      The 49th International Conference on Very Large Data Bases (VLDB 2023) 
-      <a href="https://hsiaoko.github.io/files/paper/MiniGraph_full_paper.pdf">[Paper]</a>
-      <a href="https://github.com/SICS-Fundamental-Research-Center/MiniGraph">[Source Code]</a>
-      <a href="https://hsiaoko.github.io/files/slides/MiniGraph_slides_VLDB_2023.pdf">[Slides]</a>
-    </p>
-  </li>
-</ul>
-
-### 2022
-
-<ul>   
-  <li>
-    <p>
-      Ting Deng, Wenfei Fan, Ping Lu, Xiaomeng Luo, <b>Xiaoke Zhu**</b>, and Wanhe An, <br />
-      <em>Deep and collective entity resolution in parallel,</em><br />
-      The 38th International Conference on Data Engineering (ICDE 2022)
-      <a href="https://hsiaoko.github.io/files/paper/PER_paper.pdf">[Paper]</a>
-      <a href="https://hsiaoko.github.io/files/slides/PER-slides-5min-0510.pdf">[Slides]</a>
-    </p>
-  </li>
-</ul>
-
-### 2021
-
-<ul>   
-  <li>
-    <p>
-      <b>Xiaoke Zhu</b>, Qi Zhang, Taining Cheng, Ling Liu, Wei Zhou, and Jing He, <br />
-      <em>DLB: Deep Learning Based Load Balancing,</em><br />
-      The 14th International Conference on Cloud Computing (CLOUD 2021)
-      <a href="https://hsiaoko.github.io/files/paper/DLB_paper.pdf">[Paper]</a>
-      <a href="https://github.com/hsiaoko/DLB-CLOUD-2021">[Source Code]</a>
-    </p>
-  </li>
-</ul>
-
-## PhD Dissertation
-
-### Research on Eﬃcient Large-Scale Graph Data Querying Technologies for Single-Machine Systems
-A thesis submitted for the Degree of Doctor of Philosophy to the Beihang Univeristy.
-
-<a href="https://hsiaoko.github.io/files/slides/Thesis-slides.pdf">[Download slides here]</a>
+<h2 class="pub-year">PhD Dissertation</h2>
+<div class="pub-card">
+  <h3 class="pub-title">Research on Eﬃcient Large-Scale Graph Data Querying Technologies for Single-Machine Systems</h3>
+  <p class="pub-venue">A thesis submitted for the Degree of Doctor of Philosophy to Beihang University</p>
+  <div class="pub-actions">
+    <a class="pub-action" href="https://hsiaoko.github.io/files/slides/Thesis-slides.pdf">Slides</a>
+  </div>
+</div>

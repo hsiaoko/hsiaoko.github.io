@@ -352,3 +352,167 @@
     color: #FDFCF8;
   }
 }
+
+/* --------------------------------------------------------------------------
+   Publications page
+   -------------------------------------------------------------------------- */
+.pub-year {
+  font-family: $header-font-family;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 2.5rem 0 1.25rem;
+  padding-bottom: 0.35em;
+  border-bottom: 1px solid $border-color;
+  color: $text-color;
+}
+
+.pub-card {
+  background: #fff;
+  border: 1px solid $border-color;
+  border-left: 4px solid #005F73;
+  border-radius: 4px;
+  padding: 1.25rem 1.35rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 1px 2px rgba(#0F2A45, 0.04);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(#0F2A45, 0.08);
+  }
+}
+
+.pub-authors {
+  margin: 0 0 0.5rem;
+  font-size: 0.9rem;
+  line-height: 1.55;
+  color: #6B7280;
+
+  strong {
+    color: $text-color;
+  }
+}
+
+.pub-title {
+  margin: 0 0 0.5rem;
+  font-family: $header-font-family;
+  font-size: 1.15rem;
+  font-weight: 700;
+  line-height: 1.4;
+  color: $text-color;
+}
+
+.pub-venue {
+  margin: 0 0 1rem;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: mix(#000, $text-color, 15%);
+}
+
+.pub-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.pub-action {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.35em 0.85em;
+  border-radius: 999px;
+  font-family: $global-font-family;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #005F73;
+  border: 1px solid rgba(#005F73, 0.4);
+  transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+
+  &:hover {
+    background: #005F73;
+    color: #FDFCF8;
+    border-color: #005F73;
+    text-decoration: none;
+  }
+
+  &--paper {
+    background: #005F73;
+    color: #FDFCF8;
+    border-color: #005F73;
+
+    &:hover {
+      background: mix(#fff, #005F73, 12%);
+    }
+  }
+}
+
+.pub-note {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #6B7280;
+  margin-bottom: 1.5rem;
+
+  a {
+    color: #005F73;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(#005F73, 0.3);
+
+    &:hover {
+      border-bottom-color: #005F73;
+      text-decoration: none;
+    }
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Global polish: masthead, footer, buttons, links
+   -------------------------------------------------------------------------- */
+.masthead__menu-item--lg a {
+  font-family: $header-font-family;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.greedy-nav .visible-links a::before {
+  background: #0A9396;
+}
+
+.page__footer {
+  background-color: #F5F4F0;
+  border-top-color: #E5E0D8;
+  color: #6B7280;
+
+  a {
+    color: #6B7280;
+
+    &:hover {
+      color: #005F73;
+      text-decoration: none;
+    }
+  }
+
+  .fa {
+    color: #6B7280;
+  }
+}
+
+.btn--primary {
+  &:hover {
+    background-color: #005F73;
+  }
+}
+
+.page__content {
+  a {
+    color: #005F73;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(#005F73, 0.25);
+    transition: border-color 0.15s ease, color 0.15s ease;
+
+    &:hover {
+      color: #005F73;
+      border-bottom-color: #005F73;
+      text-decoration: none;
+    }
+  }
+}
