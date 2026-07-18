@@ -1,0 +1,354 @@
+/* ==========================================================================
+   HOMEPAGE REFRESH
+   A modern academic-journal style for the about/home page.
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   Hero section
+   -------------------------------------------------------------------------- */
+.home-hero {
+  position: relative;
+  margin: -2em -1em 2.5rem;
+  padding: 4rem 1.5rem 4.5rem;
+  background: #0F2A45;
+  color: #FDFCF8;
+  overflow: hidden;
+
+  @include breakpoint($large) {
+    padding: 5rem 2rem 6rem;
+  }
+
+  &__canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: 0.35;
+    pointer-events: none;
+  }
+
+  &__content {
+    position: relative;
+    z-index: 1;
+    max-width: 760px;
+  }
+
+  &__name {
+    margin: 0 0 0.35em;
+    font-family: $header-font-family;
+    font-size: 2.75rem;
+    font-weight: 700;
+    line-height: 1.05;
+    color: #FDFCF8;
+
+    @include breakpoint($small) {
+      font-size: 3.25rem;
+    }
+
+    @include breakpoint($large) {
+      font-size: 3.75rem;
+    }
+  }
+
+  &__title {
+    margin: 0 0 0.75em;
+    font-family: $global-font-family;
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: rgba(#FDFCF8, 0.85);
+
+    @include breakpoint($small) {
+      font-size: 1.25rem;
+    }
+  }
+
+  &__tagline {
+    margin: 0 0 1.75em;
+    font-family: $header-font-family;
+    font-size: 1.25rem;
+    font-style: italic;
+    line-height: 1.45;
+    color: rgba(#FDFCF8, 0.92);
+
+    @include breakpoint($small) {
+      font-size: 1.45rem;
+    }
+  }
+
+  &__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   CTA buttons
+   -------------------------------------------------------------------------- */
+.home-cta {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.65em 1.35em;
+  border-radius: 4px;
+  font-family: $global-font-family;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
+
+  &:hover {
+    text-decoration: none;
+    transform: translateY(-1px);
+  }
+
+  &--primary {
+    background: #005F73;
+    color: #FDFCF8;
+
+    &:hover {
+      background: mix(#fff, #005F73, 12%);
+      box-shadow: 0 4px 12px rgba(#005F73, 0.35);
+      color: #FDFCF8;
+    }
+  }
+
+  &--secondary {
+    background: transparent;
+    color: #FDFCF8;
+    box-shadow: inset 0 0 0 2px rgba(#FDFCF8, 0.55);
+
+    &:hover {
+      background: rgba(#FDFCF8, 0.08);
+      box-shadow: inset 0 0 0 2px #FDFCF8;
+      color: #FDFCF8;
+    }
+  }
+
+  svg,
+  .fa {
+    margin-right: 0.45em;
+    font-size: 0.9em;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Intro paragraph
+   -------------------------------------------------------------------------- */
+.home-intro {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  margin-bottom: 2.5rem;
+
+  a {
+    color: #005F73;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(#005F73, 0.3);
+
+    &:hover {
+      text-decoration: none;
+      border-bottom-color: #005F73;
+    }
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Section headings
+   -------------------------------------------------------------------------- */
+.home-section-title {
+  font-family: $header-font-family;
+  font-size: 1.65rem;
+  font-weight: 700;
+  margin: 2.5rem 0 1.25rem;
+  padding-bottom: 0.4em;
+  border-bottom: 1px solid $border-color;
+  color: $text-color;
+}
+
+/* --------------------------------------------------------------------------
+   News timeline
+   -------------------------------------------------------------------------- */
+.news-timeline {
+  list-style: none;
+  margin: 0 0 2.5rem;
+  padding: 0;
+
+  li {
+    position: relative;
+    padding-left: 1.6rem;
+    margin-bottom: 1.1rem;
+    line-height: 1.55;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0.45em;
+      left: 0;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #005F73;
+      box-shadow: 0 0 0 3px rgba(#005F73, 0.15);
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 1.1em;
+      left: 3.5px;
+      width: 1px;
+      height: calc(100% + 1.1rem);
+      background: $border-color;
+    }
+
+    &:last-child::after {
+      display: none;
+    }
+  }
+}
+
+.news-date {
+  display: inline-block;
+  min-width: 5.5rem;
+  margin-right: 0.5rem;
+  font-family: $global-font-family;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #6B7280;
+}
+
+.venue-badge {
+  display: inline-block;
+  margin-right: 0.5rem;
+  padding: 0.15em 0.55em;
+  border-radius: 3px;
+  font-family: $global-font-family;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FDFCF8;
+  background: #B07D62;
+  vertical-align: middle;
+}
+
+/* --------------------------------------------------------------------------
+   Research cards
+   -------------------------------------------------------------------------- */
+.research-card {
+  background: #fff;
+  border: 1px solid $border-color;
+  border-left: 4px solid #005F73;
+  border-radius: 4px;
+  padding: 1.25rem 1.35rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 1px 2px rgba(#0F2A45, 0.04);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(#0F2A45, 0.08);
+  }
+
+  h3 {
+    font-family: $header-font-family;
+    font-size: 1.25rem;
+    margin: 0 0 0.5em;
+    color: $text-color;
+  }
+
+  p {
+    margin: 0 0 0.75em;
+    font-size: 0.98rem;
+    line-height: 1.6;
+    color: mix(#000, $text-color, 10%);
+  }
+
+  a {
+    color: #005F73;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(#005F73, 0.3);
+
+    &:hover {
+      border-bottom-color: #005F73;
+      text-decoration: none;
+    }
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Visitor map
+   -------------------------------------------------------------------------- */
+.visitor-map {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid $border-color;
+  text-align: center;
+
+  &__title {
+    font-family: $header-font-family;
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+    color: $text-color;
+  }
+
+  &__caption {
+    font-size: 0.85rem;
+    color: #6B7280;
+    margin-bottom: 1rem;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Author sidebar enhancements
+   -------------------------------------------------------------------------- */
+.sidebar {
+  @include breakpoint($large) {
+    position: sticky;
+    top: 2rem;
+    opacity: 1;
+  }
+}
+
+.author__avatar {
+  img {
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 0 4px 12px rgba(#0F2A45, 0.12);
+    max-width: 150px;
+
+    @include breakpoint($large) {
+      max-width: 170px;
+    }
+  }
+}
+
+.author__name {
+  font-family: $header-font-family;
+  font-weight: 700;
+}
+
+.author__bio {
+  color: #6B7280;
+  line-height: 1.5;
+}
+
+.author__cv {
+  display: block;
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  background: #005F73;
+  color: #FDFCF8;
+  font-weight: 600;
+
+  &:hover {
+    background: mix(#fff, #005F73, 12%);
+    color: #FDFCF8;
+  }
+}

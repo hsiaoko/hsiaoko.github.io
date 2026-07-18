@@ -8,80 +8,198 @@ redirect_from:
   - /about.html
 ---
 
-<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-    :root {
-      font-size: 16px; /* 默认16px，改为18px（所有rem单位会按比例缩放） */
-    }
-</style>
+<section class="home-hero" aria-label="Introduction">
+  <canvas id="network-hero" class="home-hero__canvas"></canvas>
+  <div class="home-hero__content">
+    <h1 class="home-hero__name">Xiaoke Zhu</h1>
+    <p class="home-hero__title">Research Fellow, Shenzhen Institute of Computing Sciences (SICS)</p>
+    <p class="home-hero__tagline">Building fast, scalable systems for graph analytics, data cleaning, and AI-driven databases.</p>
+    <div class="home-hero__actions">
+      <a class="home-cta home-cta--primary" href="/publications/"><i class="fa fa-book" aria-hidden="true"></i> Publications</a>
+      <a class="home-cta home-cta--secondary" href="/files/Xiaoke_Zhu_En_CV.pdf"><i class="fa fa-file-text" aria-hidden="true"></i> Download CV</a>
+      <a class="home-cta home-cta--secondary" href="mailto:{{ site.author.email }}"><i class="fa fa-envelope" aria-hidden="true"></i> Email</a>
+    </div>
+  </div>
+</section>
 
+<p class="home-intro">
+I am Xiaoke Zhu (Hsiaoko Chu in Wade-Giles romanization), currently a research fellow at <a href="https://en.sics.ac.cn">Shenzhen Institute of Computing Sciences</a> (SICS). I received my Ph.D. from <a href="https://ev.buaa.edu.cn/">Beihang University</a> in October 2025, advised by <a href="https://homepages.inf.ed.ac.uk/wenfei/">Prof. Wenfei Fan</a>, and my M.S. from <a href="http://english.ynu.edu.cn/">Yunnan University</a> in 2020. My work focuses on graph computing, GPU-accelerated algorithms, high-performance data cleaning, and AI4DB. I welcome collaborations and discussions—feel free to reach out via email.
+</p>
 
-I am Xiaoke Zhu (Hsiaoko Chu in Wade-Giles romanization), 
-currently a research fellow at [Shenzhen Institute of Computing Sciences](https://en.sics.ac.cn) (SICS).
-In Oct. 2025, I received my Ph.D. degree at [Beihang University](https://ev.buaa.edu.cn/) (BUAA), under the supervision of [Prof. Wenfei Fan](https://homepages.inf.ed.ac.uk/wenfei/). 
-Before that, I received master degree at [Yunnan University](http://english.ynu.edu.cn/) (YNU) in 2020, where I was advised by [Prof. Wei Zhou](https://ieeexplore.ieee.org/author/37085625745) and [Prof. Shaowen Yao](https://ieeexplore.ieee.org/author/37402574900).
-My work focuses on Graph Computing, GPU Accelerated Algorithms, High Performance Data Cleaning, and AI4DB. I welcome collaborations and discussions—feel free to reach out via email.
-
-
-<h2 style="color: black;">News</h2>
-<ul style="list-style-type:disc; padding-left: 0; margin-left: 0;height: 400px;overflow: hidden;overflow-y: scroll;"> 
-<li><span class="badge bg-success">NOV 2025</span> Our  <a href="https://hsiaoko.github.io/files/paper/NPML_paper.pdf">Enumerating Graph Pattern Matches with ML Oracles</a> paper was accepted to <b>SIGMOD 2026</b>. </li>
-<li><span class="badge bg-success">OCT 2025</span> I joined <a href="https://en.sics.ac.cn">Shenzhen Institute of Computing Science</a> (SICS) as a research fellow. </li>
-<li><span class="badge bg-success">NOV 2024</span> Successfully defended my Ph.D. thesis.  <a href="https://hsiaoko.github.io/files/slides/Thesis-slides.pdf">(Download slides here)</a> </li>
-<li><span class="badge bg-success">NOV 2024</span> Our  <a href="https://hsiaoko.github.io/files/paper/MiniClean_paper.pdf">GPU-Accelerated Graph Cleaning with a Single Machine</a> paper was accepted to <b>SIGMOD 2025</b>. </li>
-<li><span class="badge bg-success">NOV 2024</span> Our  <a href="https://hsiaoko.github.io/files/paper/Planar_paper.pdf">A Single Machine System for Querying Big Graphs with PRAM</a> paper was accepted to <b>VLDB 2025</b>. </li>
-<li><span class="badge bg-success">OCT 2024</span> Our <a href="https://hsiaoko.github.io/files/paper/HyperBlocker_full_paper.pdf">HyperBlocker: Accelerating Rule-Based Blocking in Entity Resolution Using GPUs</a> paper was accepted to <b>VLDB 2025</b>. </li>
-<li><span class="badge bg-success">OCT 2024</span> Our <a href="https://hsiaoko.github.io/files/paper/NN-sort_paper.pdf">Deep Learning Service for Efficient Data Distribution Aware Sorting</a> paper was accepted to <b>IEEE BigData 2024</b>. </li>
-<li><span class="badge bg-success">APR 2023</span> Our <a href="https://hsiaoko.github.io/files/paper/MiniGraph_full_paper.pdf">MiniGraph: Querying Big Graphs with a Single Machine</a> paper was accepted to <b>VLDB 2023</b>. </li>
-<li><span class="badge bg-success">FEB 2022</span> Our <a href="https://hsiaoko.github.io/files/paper/PER_paper.pdf">Deep and Collective Entity Resolution in Parallel</a> paper was accepted to <b>ICDE 2022</b>. </li>
-<li><span class="badge bg-success">SEP 2021</span> I joined <a href="https://en.sics.ac.cn">Shenzhen Institute of Computing Science</a> (SICS) as a research intern. </li>
-<li><span class="badge bg-success">JUL 2021</span> Our <a href="https://hsiaoko.github.io/files/paper/DLB_paper.pdf">DLB: Deep Learning Based Load Balancing</a> paper was accepted to <b>IEEE CLOUD 2021</b>. </li>
+<h2 class="home-section-title">News</h2>
+<ul class="news-timeline">
+  <li><span class="news-date">NOV 2025</span><span class="venue-badge">SIGMOD'26</span> Our paper <a href="/files/paper/NPML_paper.pdf">Enumerating Graph Pattern Matches with ML Oracles</a> was accepted to <b>SIGMOD 2026</b>.</li>
+  <li><span class="news-date">OCT 2025</span> I joined <a href="https://en.sics.ac.cn">Shenzhen Institute of Computing Sciences</a> (SICS) as a research fellow.</li>
+  <li><span class="news-date">NOV 2024</span> Successfully defended my Ph.D. thesis. <a href="/files/slides/Thesis-slides.pdf">(Download slides)</a></li>
+  <li><span class="news-date">NOV 2024</span><span class="venue-badge">SIGMOD'25</span> Our paper <a href="/files/paper/MiniClean_paper.pdf">GPU-Accelerated Graph Cleaning with a Single Machine</a> was accepted to <b>SIGMOD 2025</b>.</li>
+  <li><span class="news-date">NOV 2024</span><span class="venue-badge">VLDB'25</span> Our paper <a href="/files/paper/Planar_paper.pdf">A Single Machine System for Querying Big Graphs with PRAM</a> was accepted to <b>VLDB 2025</b>.</li>
+  <li><span class="news-date">OCT 2024</span><span class="venue-badge">VLDB'25</span> Our paper <a href="/files/paper/HyperBlocker_full_paper.pdf">HyperBlocker: Accelerating Rule-Based Blocking in Entity Resolution Using GPUs</a> was accepted to <b>VLDB 2025</b>.</li>
+  <li><span class="news-date">OCT 2024</span><span class="venue-badge">IEEE BigData'24</span> Our paper <a href="/files/paper/NN-sort_paper.pdf">Deep Learning Service for Efficient Data Distribution Aware Sorting</a> was accepted to <b>IEEE BigData 2024</b>.</li>
+  <li><span class="news-date">APR 2023</span><span class="venue-badge">VLDB'23</span> Our paper <a href="/files/paper/MiniGraph_full_paper.pdf">MiniGraph: Querying Big Graphs with a Single Machine</a> was accepted to <b>VLDB 2023</b>.</li>
+  <li><span class="news-date">FEB 2022</span><span class="venue-badge">ICDE'22</span> Our paper <a href="/files/paper/PER_paper.pdf">Deep and Collective Entity Resolution in Parallel</a> was accepted to <b>ICDE 2022</b>.</li>
+  <li><span class="news-date">SEP 2021</span> I joined <a href="https://en.sics.ac.cn">Shenzhen Institute of Computing Sciences</a> (SICS) as a research intern.</li>
+  <li><span class="news-date">JUL 2021</span><span class="venue-badge">IEEE CLOUD'21</span> Our paper <a href="/files/paper/DLB_paper.pdf">DLB: Deep Learning Based Load Balancing</a> was accepted to <b>IEEE CLOUD 2021</b>.</li>
 </ul>
 
-# Research Interests
-My research focuses on graph computing and databases, optimizing runtime efficiency for shared-memory and CPU/GPU architectures, with publications in SIGMOD, VLDB, ICDE, BigData, and CLOUD. A brief summary of my past work can be found below.
+<h2 class="home-section-title">Research Interests</h2>
 
-### Graph Computing Systems
-I have worked on building a high-level programming model and runtime system that can execute applications on shared-memory or out-of-memory architectures with CPUs or GPUs. For out-of-core graph analytics (e.g., PageRank, SSSP), I improved I/O efficiency, and for graph mining (e.g., Graph Data Cleaning, Pattern Matching), I optimized GPU performance. Relevant results were published in  [[VLDB'23](https://hsiaoko.github.io/files/paper/MiniGraph_full_paper.pdf), [VLDB'25](https://hsiaoko.github.io/files/paper/planar_paper.pdf), [SIGMOD'25](https://hsiaoko.github.io/files/paper/miniclean_paper.pdf)]
+<div class="research-card">
+  <h3>Graph Computing Systems</h3>
+  <p>Building high-level programming models and runtime systems that execute graph applications on shared-memory, out-of-memory, CPU, or GPU architectures. I have improved I/O efficiency for out-of-core graph analytics (e.g., PageRank, SSSP) and optimized GPU performance for graph mining tasks such as graph cleaning and pattern matching.</p>
+  <p><strong>Representative work:</strong> <a href="/files/paper/MiniGraph_full_paper.pdf">VLDB'23</a>, <a href="/files/paper/Planar_paper.pdf">VLDB'25</a>, <a href="/files/paper/MiniClean_paper.pdf">SIGMOD'25</a>, <a href="/files/paper/NPML_paper.pdf">SIGMOD'26</a></p>
+</div>
 
-### Data Cleaning
-I have worked on improving the performance of data cleaning systems on modern hardware like GPU or on distributed cluster. I have also compared different parallel runtime systems for data cleaning, and identified their performance bottlenecks.  Relevant results were published in  [[ICDE'22](https://hsiaoko.github.io/files/paper/PER_paper.pdf), [VLDB'25](https://hsiaoko.github.io/files/paper/HyperBlocker_full_paper.pdf), [SIGMOD'25](https://hsiaoko.github.io/files/paper/miniclean_paper.pdf)]
+<div class="research-card">
+  <h3>Data Cleaning</h3>
+  <p>Accelerating data cleaning systems on modern hardware such as GPUs and distributed clusters. I have benchmarked parallel runtime systems for data cleaning and identified their performance bottlenecks, with a focus on rule-based blocking and entity resolution.</p>
+  <p><strong>Representative work:</strong> <a href="/files/paper/PER_paper.pdf">ICDE'22</a>, <a href="/files/paper/HyperBlocker_full_paper.pdf">VLDB'25</a>, <a href="/files/paper/MiniClean_paper.pdf">SIGMOD'25</a></p>
+</div>
 
-### AI4DB
-I have leverages machine learning and deep learning model to improve tasks traditionally handled by  human database administrators or classical algorithms, enabling more efficient data processing and resource management. Specially I have designed learned models for sorting, load balancing, and scheduling. Relevant results were published in  [[CLOUD'21](https://hsiaoko.github.io/files/paper/DLB_paper.pdf), [BigData'24](https://hsiaoko.github.io/files/paper/NN-sort_paper.pdf), [SIGMOD'26](https://hsiaoko.github.io/files/paper/NPML_paper.pdf)]
+<div class="research-card">
+  <h3>AI4DB</h3>
+  <p>Leveraging machine learning and deep learning to replace manual DBA effort and classical algorithms, enabling more efficient data processing and resource management. I have designed learned models for sorting, load balancing, and scheduling.</p>
+  <p><strong>Representative work:</strong> <a href="/files/paper/DLB_paper.pdf">IEEE CLOUD'21</a>, <a href="/files/paper/NN-sort_paper.pdf">IEEE BigData'24</a></p>
+</div>
 
+<div class="visitor-map">
+  <h3 class="visitor-map__title">Visitor Map</h3>
+  <p class="visitor-map__caption">Recent visitors to this page</p>
+  <script type='text/javascript' id='clustrmaps' src='https://clustrmaps.com/map_v2.js?cl=000000&w=230&t=tt&d=eHHOFbP732DR-cMe1ytaYJxII5gJ_ocpixMhAWlufLU&co=ffffff&ct=0a0909&cmn=00fff0&cmo=f3cefc'></script>
+</div>
 
+<script>
+(function() {
+  'use strict';
 
+  var canvas = document.getElementById('network-hero');
+  if (!canvas) return;
 
+  var ctx = canvas.getContext('2d');
+  var hero = canvas.parentElement;
+  var width, height, dpr;
+  var particles = [];
+  var mouse = { x: null, y: null };
+  var isVisible = true;
+  var rafId = null;
 
+  var prefersReducedMotion = window.matchMedia &&
+    window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-<!--
-# News
-* (2024/11) Our [GPU-Accelerated Graph Cleaning with a Single Machine](https://hsiaoko.github.io/files/paper/miniclean_paper.pdf) paper was accepted to **SIGMOD 2025**.
-* (2024/11) Our [A Single Machine System for Querying Big Graphs with PRAM](https://hsiaoko.github.io/files/paper/planar_paper.pdf) paper was accepted to **VLDB 2025**.
-* (2024/10) Our [Deep Learning Service for Efficient Data Distribution Aware Sorting](https://hsiaoko.github.io/files/paper/NN-sort_paper.pdf) paper was accepted to **BigData 2024**.
-* (2024/10) Our [HyperBlocker: Accelerating Rule-based Blocking in Entity Resolution using GPUs](https://hsiaoko.github.io/files/paper/HyperBlocker_full_paper.pdf) paper was accepted to **VLDB 2025**.
-* (2023/04) Our [MiniGraph: Querying Big Graphs with a Single Machine](https://hsiaoko.github.io/files/paper/MiniGraph_full_paper.pdf) paper was accepted to **VLDB 2023**.
-* (2022/02) Our [Deep and Collective Entity Resolution in Parallel](https://hsiaoko.github.io/files/paper/PER_paper.pdf) paper was accepted to **ICDE 2022**.
-* (2021/09) I joined [Shenzhen Institute of Computing Science](https://en.sics.ac.cn) (SICS) as a research intern.
-* (2021/07) Our [DLB: Deep Learning Based Load Balancing](https://hsiaoko.github.io/files/paper/DLB_paper.pdf) paper was accepted to **CLOUD 2021**.
-* 
-# Talks
-* "MiniGraph: Querying Big Graphs with a Single Machine"
-  * Great Bay Area Digital Tech Workshop, June 2023
-  * VLDB conference, September 2023
-* "DLB: Deep Learning Based Load Balancing"
-  * IEEE CLOUD conference, September 2021
+  function resize() {
+    dpr = window.devicePixelRatio || 1;
+    width = hero.clientWidth;
+    height = hero.clientHeight;
+    canvas.width = Math.floor(width * dpr);
+    canvas.height = Math.floor(height * dpr);
+    ctx.setTransform(1, 0, 0, 1, 0, 0);
+    ctx.scale(dpr, dpr);
+  }
 
+  function initParticles() {
+    particles = [];
+    var count = Math.min(60, Math.floor((width * height) / 12000));
+    for (var i = 0; i < count; i++) {
+      particles.push({
+        x: Math.random() * width,
+        y: Math.random() * height,
+        vx: (Math.random() - 0.5) * 0.4,
+        vy: (Math.random() - 0.5) * 0.4,
+        r: Math.random() * 2 + 1.5
+      });
+    }
+  }
 
-# Professional Services
-### External Reviewer
-* ICDE'24, ICDE'25
+  function draw() {
+    ctx.clearRect(0, 0, width, height);
 
-<br/><br/>
--->
+    for (var i = 0; i < particles.length; i++) {
+      var p = particles[i];
 
-<script type='text/javascript' id='clustrmaps' src='https://clustrmaps.com/map_v2.js?cl=000000&w=230&t=tt&d=eHHOFbP732DR-cMe1ytaYJxII5gJ_ocpixMhAWlufLU&co=ffffff&ct=0a0909&cmn=00fff0&cmo=f3cefc'></script>
+      if (!prefersReducedMotion) {
+        p.x += p.vx;
+        p.y += p.vy;
 
+        if (p.x < 0 || p.x > width) p.vx *= -1;
+        if (p.y < 0 || p.y > height) p.vy *= -1;
+
+        if (mouse.x !== null && mouse.y !== null) {
+          var dx = p.x - mouse.x;
+          var dy = p.y - mouse.y;
+          var dist = Math.sqrt(dx * dx + dy * dy);
+          if (dist < 100 && dist > 0) {
+            var force = (100 - dist) / 100;
+            p.x += (dx / dist) * force * 1.5;
+            p.y += (dy / dist) * force * 1.5;
+          }
+        }
+      }
+
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+      ctx.fillStyle = 'rgba(253, 252, 248, 0.6)';
+      ctx.fill();
+    }
+
+    for (var a = 0; a < particles.length; a++) {
+      for (var b = a + 1; b < particles.length; b++) {
+        var dx = particles[a].x - particles[b].x;
+        var dy = particles[a].y - particles[b].y;
+        var dist = Math.sqrt(dx * dx + dy * dy);
+        if (dist < 120) {
+          ctx.beginPath();
+          ctx.moveTo(particles[a].x, particles[a].y);
+          ctx.lineTo(particles[b].x, particles[b].y);
+          ctx.strokeStyle = 'rgba(10, 147, 150, ' + (1 - dist / 120) * 0.35 + ')';
+          ctx.lineWidth = 1;
+          ctx.stroke();
+        }
+      }
+    }
+  }
+
+  function loop() {
+    if (!isVisible) return;
+    draw();
+    rafId = requestAnimationFrame(loop);
+  }
+
+  function start() {
+    if (rafId) cancelAnimationFrame(rafId);
+    resize();
+    initParticles();
+    loop();
+  }
+
+  if ('IntersectionObserver' in window) {
+    var observer = new IntersectionObserver(function(entries) {
+      isVisible = entries[0].isIntersecting;
+      if (isVisible && !rafId) loop();
+    }, { threshold: 0 });
+    observer.observe(hero);
+  }
+
+  hero.addEventListener('mousemove', function(e) {
+    var rect = hero.getBoundingClientRect();
+    mouse.x = e.clientX - rect.left;
+    mouse.y = e.clientY - rect.top;
+  });
+
+  hero.addEventListener('mouseleave', function() {
+    mouse.x = null;
+    mouse.y = null;
+  });
+
+  window.addEventListener('resize', function() {
+    resize();
+    initParticles();
+  });
+
+  if (!prefersReducedMotion) {
+    start();
+  } else {
+    resize();
+    initParticles();
+    draw();
+  }
+})();
+</script>
