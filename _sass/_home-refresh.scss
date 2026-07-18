@@ -67,15 +67,19 @@ body {
 }
 
 .news-date {
-  font-size: 0.9rem;
+  display: inline-block;
+  min-width: 5.25rem;
+  font-size: 0.85rem;
   font-weight: 600;
-  color: $text-color;
+  color: #6B7280;
 }
 
 .venue-badge {
-  font-size: 0.9rem;
+  display: inline-block;
+  margin-right: 0.45rem;
+  font-size: 0.85rem;
   font-weight: 700;
-  color: $text-color;
+  color: #1F3A5F;
 }
 
 /* --------------------------------------------------------------------------
